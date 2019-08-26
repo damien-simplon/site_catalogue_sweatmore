@@ -1,22 +1,24 @@
+/********************SETTINGS******************/
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	list-style-type:none;
+}
 
 /********************FOOTER********************/
-.FAQ{
-    background-color:white;
-    color:black;
+
+footer{
+	background-color:rgb(0, 130, 195);
+	color:black;
+	height:200px;
 }
 
-.reseaux{
-    position:relative;
-    display:block;
-    bottom:5px;
+.footerHeader{
 }
 
-.footer{
-    background-color:#0A98D2;
-    text-align:center;
-    color:white;
-    width:100%;
-    margin:0 auto;
+.footerBas{
+	background-color:black;
 }
 
 /********************CONNEXION********************/
