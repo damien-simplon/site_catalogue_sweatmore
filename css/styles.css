@@ -9,16 +9,28 @@
 /********************FOOTER********************/
 
 footer{
+    color: solid black;
 	background-color:rgb(0, 130, 195);
-	color:black;
-	height:200px;
+    height:120px;
+    font-size:0.7em;
+    text-align:center;
 }
 
-.footerHeader{
+.footerHeader a{
+    position:relative;
+    top:10px;
+    color:white;
 }
 
 .footerBas{
-	background-color:black;
+    position:relative;
+    bottom:5px;
+    background-color:black;
+}
+
+.footerBas a{
+    margin-left:5%;
+    margin-right:5%;
 }
 
 /********************CONNEXION********************/
