@@ -12,12 +12,7 @@
     <body>
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
-<<<<<<< HEAD
-        <?php 
-            include "./include/content.inc.html";
-        ?>
-=======
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,13 +46,18 @@
             <li class="nav-item p-2"><a class="nav-link" href="./inscription.php">Inscription</a></li>
         </ul>
     </nav>
->>>>>>> 96af293826e174d5224f580565968c146fe13067
+
+    <?php 
+        include "./include/content.inc.html";
+    ?>
 
         <?php
             include "./include/footer.inc.html";
         ?>
 
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 
 </html>
