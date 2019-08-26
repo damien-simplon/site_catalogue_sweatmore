@@ -4,7 +4,7 @@
     <head>
 
         <?php
-            include "./include/head.inc.html"
+            include "./include/head.inc.html";
         ?>
 
     </head>
@@ -12,7 +12,7 @@
     <body>
         
         <?php
-            include "./include/footer.inc.html"
+            include "./include/footer.inc.html";
         ?>
 
     </body>
