@@ -35,10 +35,12 @@
                 <div class="form-group">
                     <label for="sexe">Sexe</label>
                     </br>
-                    <label for="femme">Femme</label>
-                    <input type="radio" name="femme" id="femme" checked/>
-                    <label for="homme">Homme</label>
-                    <input type="radio" name="homme" id="homme"/>
+                    <div class="sexe">
+                        <label for="femme">Femme
+                        <input type="radio" name="sexe" id="femme" value="femme" checked/></label>
+                        <label for="homme">Homme
+                        <input type="radio" name="sexe" id="homme" value="homme" /></label>
+                    </div>
                 </div>
 
                 <div class="text-center">
