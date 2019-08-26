@@ -1,0 +1,25 @@
+.connexion{
+    height:590px;
+    background-image: url('../img/plage.jpg');
+    text-align:center;
+}
+
+.container{
+    background-color: black;
+    opacity:0.6;
+    color:white;
+    position:relative;
+    width:350px;
+    height:450px;
+    top:90px;
+    text-align:center;
+    margin:0 auto;
+}
+
+input{
+    width:270px;
+}
+
+#submit{
+    width:200px;
+}
