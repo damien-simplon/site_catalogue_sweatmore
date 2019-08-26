@@ -11,6 +11,10 @@
 
     <body>
         
+        <?php 
+            include "./include/content.inc.html";
+        ?>
+
         <?php
             include "./include/footer.inc.html";
         ?>

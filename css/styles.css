@@ -6,6 +6,19 @@
 	list-style-type:none;
 }
 
+/********************CONTENT********************/
+
+#content{
+    height:350px;
+    font-family: 'Karla', sans-serif;
+}
+
+#content h2{
+    color: rgb(0, 130, 195);
+    text-align:center;
+    font-size:2.em;
+}
+
 /********************FOOTER********************/
 
 footer{
