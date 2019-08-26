@@ -9,9 +9,9 @@
 /********************FOOTER********************/
 
 footer{
-    color: solid black;
+    color: solid white;
 	background-color:rgb(0, 130, 195);
-    height:120px;
+    height:200px;
     font-size:0.7em;
     text-align:center;
 }
@@ -20,17 +20,20 @@ footer{
     position:relative;
     top:10px;
     color:white;
+    font-size:20px;
 }
 
 .footerBas{
     position:relative;
     bottom:5px;
-    background-color:black;
+    
 }
 
 .footerBas a{
     margin-left:5%;
     margin-right:5%;
+    color:white;
+    font-size:40px;
 }
 
 /********************CONNEXION********************/
