@@ -1,0 +1,54 @@
+
+/********************FOOTER********************/
+.FAQ{
+    background-color:white;
+    color:black;
+}
+
+.reseaux{
+    position:relative;
+    display:block;
+    bottom:5px;
+}
+
+.footer{
+    background-color:#0A98D2;
+    text-align:center;
+    color:white;
+    width:100%;
+    margin:0 auto;
+}
+
+/********************CONNEXION********************/
+.container{
+    background-color: black;
+    opacity:0.6;
+    color:white;
+    position:relative;
+    width:350px;
+    height:auto;
+    top:90px;
+    text-align:center;
+    margin:0 auto;
+}
+
+input{
+    width:270px;
+}
+
+#submit{
+    width:200px;
+}
+
+#creationCompte{
+    padding-bottom : 20px;
+}
+
+.form-group .sexe label{
+    margin-left : 10%;
+    margin-right : 10%;
+}
+
+.form-group .sexe input{
+    width : 30px;
+}

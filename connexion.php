@@ -1,9 +1,13 @@
-<link rel="stylesheet" href="css/connexion.css" type="text/css" />
+<?php
 
-<div class="connexion">
+    include "include/head.inc.html";
+
+?>
+
     <div class="container">
-    <h1>Connectez-vous</h1>
-    <p>Bienvenue sur SweatMore</p>
+        <section>
+        <h1>Connectez-vous</h1>
+        <p>Bienvenue sur SweatMore</p>
 
         <form>
             <form action="verification.php" method="POST">
@@ -29,6 +33,5 @@
                     <input type="submit"  id='submit' value="Créer un compte">
             </div>
         </form>
-
+        </section>
     </div>
-</div>

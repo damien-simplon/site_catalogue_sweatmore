@@ -1,6 +1,6 @@
 <?php
 
-    include 'head.inc.html';
+    include 'include/head.inc.html';
 
     echo'
         <div class="container">
@@ -35,10 +35,12 @@
                 <div class="form-group">
                     <label for="sexe">Sexe</label>
                     </br>
-                    <input type="radio" name="femme" id="femme" checked/>
-                    <label for="femme">Femme</label>
-                    <input type="radio" name="homme" id="homme"/>
-                    <label for="homme">Homme</label>
+                    <div class="sexe">
+                        <label for="femme">Femme
+                        <input type="radio" name="sexe" id="femme" value="femme" checked/></label>
+                        <label for="homme">Homme
+                        <input type="radio" name="sexe" id="homme" value="homme" /></label>
+                    </div>
                 </div>
 
                 <div class="text-center">
