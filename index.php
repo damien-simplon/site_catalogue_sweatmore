@@ -12,7 +12,7 @@
     <body>
     
     <?php
-        include "./include/header.inc.html";
+        include "./include/header.inc.php";
     ?>
 
     <?php 
