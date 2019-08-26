@@ -1,8 +1,8 @@
-.connexion{
+/*.connexion{
     height:590px;
     background-image: url('../img/plage.jpg');
     text-align:center;
-}
+}*/
 
 .container{
     background-color: black;
@@ -10,7 +10,7 @@
     color:white;
     position:relative;
     width:350px;
-    height:450px;
+    height:auto;
     top:90px;
     text-align:center;
     margin:0 auto;
@@ -22,4 +22,8 @@ input{
 
 #submit{
     width:200px;
+}
+
+#creationCompte{
+    padding-bottom : 20px;
 }
