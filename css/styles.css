@@ -1,0 +1,104 @@
+/********************SETTINGS******************/
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	list-style-type:none;
+}
+
+/******************MENU*************************/
+
+nav h2{
+    position: absolute;
+    left: 44%;
+    top : 7px;
+    color: rgb(0, 130, 195);
+    font-size:2.em;
+}
+
+#connexion_inscription{
+    position : absolute;
+    right : 0;
+    top : 2px;
+}
+/********************CONTENT********************/
+
+#content{
+    height:350px;
+    font-family: 'Karla', sans-serif;
+}
+
+/********************PRODUIT*******************/
+
+#produit_main_image{
+    position :relative;
+    height : 400px;
+    width : 400px;
+    left : 50%;
+    margin-left : -200px;
+    border : 1px solid grey;
+}
+
+/********************FOOTER********************/
+
+footer{
+    color: solid white;
+	background-color:rgb(0, 130, 195);
+    height:200px;
+    font-size:0.7em;
+    text-align:center;
+}
+
+.footerHeader a{
+    position:relative;
+    top:10px;
+    color:white;
+    font-size:20px;
+}
+
+.footerBas{
+    position:relative;
+    bottom:5px;
+    
+}
+
+.footerBas a{
+    margin-left:5%;
+    margin-right:5%;
+    color:white;
+    font-size:40px;
+}
+
+/********************CONNEXION********************/
+.container{
+    background-color: black;
+    opacity:0.6;
+    color:white;
+    position:relative;
+    width:350px;
+    height:auto;
+    top:90px;
+    text-align:center;
+    margin:0 auto;
+}
+
+input{
+    width:270px;
+}
+
+#submit{
+    width:200px;
+}
+
+#creationCompte{
+    padding-bottom : 20px;
+}
+
+.form-group .sexe label{
+    margin-left : 10%;
+    margin-right : 10%;
+}
+
+.form-group .sexe input{
+    width : 30px;
+}
