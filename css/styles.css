@@ -28,6 +28,17 @@ nav h2{
     font-family: 'Karla', sans-serif;
 }
 
+/********************PRODUIT*******************/
+
+#produit_main_image{
+    position :relative;
+    height : 400px;
+    width : 400px;
+    left : 50%;
+    margin-left : -200px;
+    border : 1px solid grey;
+}
+
 /********************FOOTER********************/
 
 footer{
