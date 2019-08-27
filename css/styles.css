@@ -5,6 +5,10 @@
 	text-decoration:none;
 	list-style-type:none;
 }
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 /******************HEADER**********************/
 header{
@@ -40,8 +44,7 @@ nav h2{
 /********************CONTENT********************/
 #content{ 
     width:100%;
-    height:100px;
-    position:absolute;
+    margin-top: 20px;
 }
 
 .carousel-item{
@@ -95,6 +98,8 @@ nav h2{
     width : 100px;
 }
 
+
+
 /********************PRODUIT*******************/
 
 #produit_image_main{
@@ -130,36 +135,104 @@ nav h2{
     margin-bottom : 50px;
 }
 
-/********************FOOTER********************/
+/********************FORMULAIRE DE CONTACT********************/
 
-footer{
-    position: relative;
-    top:400px;
-    color: solid white;
-	background-color:rgb(0, 130, 195);
-    height:200px;
-    font-size:0.7em;
+#form h2{
+    color:rgb(0, 130, 195);
+}
+#form{
+    position:absolute;
     text-align:center;
+    top:30px;
+    margin-left:300px;
+    margin-right:200px;
+    height:70px;
+    width:800px;
+    background-color: #F8F9FA;
 }
 
-.footerHeader a{
+#insertForm{
+    height:100px;
     position:relative;
-    top:10px;
-    color:white;
-    font-size:20px;
+    background-image:url("../img/banniere.jpg");
+    background-image:no-repeat;
+    opacity:0.3;
+    width:800px;
+    margin-right:20px;
+    background-color:rgb(0, 130, 195);
+  
 }
 
-.footerBas{
-    position:relative;
-    bottom:5px;
+.nomEmail span{
+    float:top;
+}
+.nomEmail{
+    position:absolute;
+    display:flex;
+    padding-left:40px;
+    top:200px;
 }
 
-.footerBas a{
-    margin-left:5%;
-    margin-right:5%;
-    color:white;
-    font-size:40px;
+.email{
+    margin-left:10%;
+    margin-right:1%;
 }
+
+.subject{
+    position:absolute;
+    width:auto;
+    top:260px;
+    padding-left:65px;
+    margin-right:1%;
+}
+
+#message{
+    position:absolute;
+    top:300px;
+    padding-left:30px;
+}
+
+
+.submit{
+    position:absolute;
+    top:500px;
+    padding-left: 60px;
+}
+
+.contactMore{
+    position:absolute;
+    padding-left:80px;
+    top:500px;
+}
+
+
+/********************FOOTER********************/
+footer{
+    background-color:rgb(0, 130, 195);
+    margin-top: 20px;
+}
+.list-footer{
+    padding-top: 20px;
+    justify-content: center;
+}
+#list-lien-footer, #list-icon-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.lien-footer{
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.icon-reseaux{
+    color: white;
+    font-size: 45px!important;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+}
+
 /********************CONNEXION********************/
 .container{
     background-color: black;
