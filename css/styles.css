@@ -235,13 +235,13 @@ footer{
 
 /********************CONNEXION********************/
 .container{
+    position:relative;
     background-color: black;
     opacity:0.6;
     color:white;
-    position:relative;
     width:350px;
     height:auto;
-    top:90px;
+    bottom:20px;
     text-align:center;
     margin:0 auto;
 }

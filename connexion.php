@@ -19,12 +19,12 @@ session_start();
             <br>
             <div class="form-group">
                 <label for="email">Adresse email</label>
-                <input type="mail" placeholder="Entrez votre adresse mail" name="email" required>
+                <input type="mail" placeholder=" Entrez votre adresse mail" name="email" required>
             </div>
             <br>
             <div class="form-group">
                 <label for="mdp">Mot de passe</label>
-                <input type="password" placeholder="Entrez votre mot de passe" name="mdp" required>
+                <input type="password" placeholder=" Entrez votre mot de passe" name="mdp" required>
             </div>
             <br>
             <br>
