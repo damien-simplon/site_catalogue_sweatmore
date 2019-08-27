@@ -7,7 +7,9 @@ USE `sweatmore`;
 -- Table structure for table `users`
 --
 
-CREATE TABLE `users` (
+
+
+CREATE TABLE IF NOT EXISTS `users` (
   `id` int(100) NOT NULL,
   `prenom` varchar(255) NOT NULL,
   `nom` varchar(255) NOT NULL,
@@ -17,6 +19,8 @@ CREATE TABLE `users` (
   `sexe` varchar(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
+CREATE TABLE IF NOT EXISTS `newsletter` (`email` varchar(255) NOT NULL);
 --
 -- Dumping data for table `users`
 --

@@ -10,7 +10,7 @@ const closeNewsletter = iconeNewsletter[0];
 window.onload = function(){
     setTimeout(function(){
         newsletter.style.display = "block";
-    }, 60000);
+    }, 1000);
 }
 
 closeCookie.onclick = function(){

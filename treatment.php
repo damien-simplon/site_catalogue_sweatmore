@@ -110,6 +110,16 @@
                 header("Location: index.php");
             }
 
-        
+        //inscription à la newsletter via la popup
+        if(isset($_POST['inscription_newsletter'])){
+            $insertmail=$bdd->prepare('INSERT INTO newsletter VALUE(:mail)');
+            $insertmail->bindParam(":mail",$mail);
+            $mail = htmlspecialchars($_POST['email']);
+            $insertmail->execute();
+            $_SESSION['notification'] = '
+            <div class="erreur fixed-top" role="alert">Merci de vous être inscrit !</div>';
+
+            header("Location: index.php");
+        }
 
     ?>
