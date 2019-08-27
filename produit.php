@@ -8,7 +8,7 @@
 
 <div id="produit_image_main">
 
-  <img src="./img/img_modif/sweat_front.jpg" class="img-thumbnail" alt="">
+  
 
 </div>
 
