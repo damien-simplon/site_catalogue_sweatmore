@@ -5,6 +5,10 @@
 	text-decoration:none;
 	list-style-type:none;
 }
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 /******************HEADER**********************/
 header{
@@ -40,8 +44,7 @@ nav h2{
 /********************CONTENT********************/
 #content{ 
     width:100%;
-    height:100px;
-    position:absolute;
+    margin-top: 20px;
 }
 
 .carousel-item{
@@ -204,35 +207,32 @@ nav h2{
 
 
 /********************FOOTER********************/
-
 footer{
-    position: relative;
-    top:400px;
-    color: solid white;
-	background-color:rgb(0, 130, 195);
-    height:200px;
-    font-size:0.7em;
-    text-align:center;
+    background-color:rgb(0, 130, 195);
+    margin-top: 20px;
+}
+.list-footer{
+    padding-top: 20px;
+    justify-content: center;
+}
+#list-lien-footer, #list-icon-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.lien-footer{
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.icon-reseaux{
+    color: white;
+    font-size: 45px!important;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 10px;
 }
 
-.footerHeader a{
-    position:relative;
-    top:1px;
-    color:white;
-    font-size:20px;
-}
-
-.footerBas{
-    position:relative;
-    bottom:5px;
-}
-
-.footerBas a{
-    margin-left:5%;
-    margin-right:5%;
-    color:white
-    font-size:40px;
-}
 /********************CONNEXION********************/
 .container{
     background-color: black;
