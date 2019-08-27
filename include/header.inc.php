@@ -4,6 +4,12 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         
+        <h2>SweatMore</h2>
+
+        <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
+            <li class="nav-item p-2"><a class="nav-link" href="./connexion.php">Connexion</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="./inscription.php">Inscription</a></li>
+        </ul>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -28,8 +34,5 @@
             </ul>
         </div>
 
-        <ul class="navbar-nav d-flex flex-row">
-            <li class="nav-item p-2"><a class="nav-link" href="./connexion.php">Connexion</a></li>
-            <li class="nav-item p-2"><a class="nav-link" href="./inscription.php">Inscription</a></li>
-        </ul>
+        
     </nav>
