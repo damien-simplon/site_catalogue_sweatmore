@@ -4,6 +4,11 @@ session_start();
     include "include/head.inc.html";
 
 ?>
+    <div class="header-login">
+        <a href="index.php" class="logo">
+            <img class="Logo" src="./img/logo.png" alt="SweatMore"> 
+        </a>
+    </div>
 
     <div class="container">
         <section>
