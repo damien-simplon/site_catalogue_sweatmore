@@ -12,7 +12,7 @@ window.onload = function(){
     affichage();
 }
 
-for(let i=1;i<=taille;i++){
+for(let i=1;i<taille;i++){
     images[i].onclick = function(){
         imageFocus = i;
         affichage();
