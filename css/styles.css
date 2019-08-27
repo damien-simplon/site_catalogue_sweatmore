@@ -6,17 +6,26 @@
 	list-style-type:none;
 }
 
+/******************MENU*************************/
+
+nav h2{
+    position: absolute;
+    left: 44%;
+    top : 7px;
+    color: rgb(0, 130, 195);
+    font-size:2.em;
+}
+
+#connexion_inscription{
+    position : absolute;
+    right : 0;
+    top : 2px;
+}
 /********************CONTENT********************/
 
 #content{
     height:350px;
     font-family: 'Karla', sans-serif;
-}
-
-#content h2{
-    color: rgb(0, 130, 195);
-    text-align:center;
-    font-size:2.em;
 }
 
 /********************FOOTER********************/
