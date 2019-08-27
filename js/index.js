@@ -1,25 +1,21 @@
-const cookie = document.getElementById("banniere_cookie");
-const texte = cookie.getElementsByTagName("p");
-const p = texte[0];
+const cookie = document.getElementById("popup_cookie");
 const icone = cookie.getElementsByTagName("i");
-const close = icone[0];
+const closeCookie = icone[0];
+const closeNewsletter = icone[1];
+const newsletter = document.getElementById("popup_newsletter");
+
 
 window.onload = function(){
-    cookie.style.height = "50px";
-    cookie.style.position = "fixed";
-    cookie.style.width = "100%";
-    cookie.style.backgroundColor = "rgba(108, 122, 137, 0.8)";
-    cookie.style.bottom = "0";
-
-    close.style.position = "absolute";
-    close.style.top = "10px";
-    close.style.right = "20px";
-    close.style.fontSize = "2.em";
-    
-    p.align = "center";
-    p.innerHTML = "En navigant sur ce site, vous acceptez l’utilisation des cookies.";
+    newsletter.style.height = "0";
+    setTimeout(function(){
+        newsletter.style.height = "100px";
+    }, 3000);
 }
 
-close.onclick = function(){
+closeCookie.onclick = function(){
+    cookie.style.height = "0";
+}
+
+closeNewsletter.onclick = function(){
     cookie.style.height = "0";
 }

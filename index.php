@@ -23,8 +23,21 @@
         include "./include/footer.inc.html";
     ?>
 
+    <div id="popup_newsletter">
+        <form action="treatment.php" method="POST">
+            <br>
+            <div class="form-group">
+                <label for="email">Inscrivez vous à notre newsletter pour être au courant des derniers ajouts !</label>
+                <input type="mail" placeholder="Entrez votre adresse mail" name="email" required>
+            </div>
+        </form>
+        <i class="fa fa-window-close-o" aria-hidden="true"></i>
+    </div>
     
-    <div id="banniere_cookie"><p></p><i class="fa fa-window-close-o" aria-hidden="true"></i></div>
+    <div id="popup_cookie">
+        <p>En navigant sur ce site, vous acceptez l’utilisation des cookies.</p>
+        <i class="fa fa-window-close-o" aria-hidden="true"></i>
+    </div>
 
     <script type="text/javascript" src="./js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

@@ -28,6 +28,7 @@ nav h2{
 }
 
 
+
 /********************CONTENT********************/
 #content{ 
     width:100%;
@@ -137,4 +138,50 @@ input{
 
 .form-group .sexe input{
     width : 30px;
+}
+
+/*************index.js (pour les 2 popup)*************/
+
+#popup_cookie{
+    position : fixed;
+    height : 50px;
+    width : 100%;
+    background-color : rgba(108, 122, 137, 0.8);
+    bottom : 0;
+}
+
+#popup_cookie p{
+    top : 50%;
+    text-align : center;
+}
+
+#popup_cookie i{
+    position : absolute;
+    top : 10px;
+    right : 20px;
+    font-size : 2.em;
+}
+
+#popup_newsletter{
+    position : fixed;
+    height : 100px;
+    width : 50%;
+    background-color : rgba(108, 122, 137, 0.8);
+    top : 0;
+    bottom : 0;
+    left : 0;
+    right : 0;
+    margin : auto;
+    text-align : center;
+}
+
+#popup_newsletter form{
+    height : 100%;
+}
+
+#popup_newsletter i{
+    position : absolute;
+    top : 10px;
+    right : 20px;
+    font-size : 2.em;
 }
