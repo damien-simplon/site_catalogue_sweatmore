@@ -1,15 +1,16 @@
 const cookie = document.getElementById("popup_cookie");
-const icone = cookie.getElementsByTagName("i");
-const closeCookie = icone[0];
-const closeNewsletter = icone[1];
+const iconeCookie = cookie.getElementsByTagName("i");
+const closeCookie = iconeCookie[0];
+
 const newsletter = document.getElementById("popup_newsletter");
+const iconeNewsletter = newsletter.getElementsByTagName("i");
+const closeNewsletter = iconeNewsletter[0];
 
 
 window.onload = function(){
-    newsletter.style.height = "0";
     setTimeout(function(){
-        newsletter.style.height = "100px";
-    }, 3000);
+        newsletter.style.display = "block";
+    }, 60000);
 }
 
 closeCookie.onclick = function(){
@@ -17,5 +18,5 @@ closeCookie.onclick = function(){
 }
 
 closeNewsletter.onclick = function(){
-    cookie.style.height = "0";
+    newsletter.style.display = "none";
 }

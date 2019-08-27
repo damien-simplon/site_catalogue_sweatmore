@@ -27,8 +27,9 @@
         <form action="treatment.php" method="POST">
             <br>
             <div class="form-group">
-                <label for="email">Inscrivez vous à notre newsletter pour être au courant des derniers ajouts !</label>
+                <label for="email">Inscrivez vous à notre newsletter pour être au courant des derniers ajouts !</label><br>
                 <input type="mail" placeholder="Entrez votre adresse mail" name="email" required>
+                <input type="submit" id='submit' value="S'inscrire">
             </div>
         </form>
         <i class="fa fa-window-close-o" aria-hidden="true"></i>

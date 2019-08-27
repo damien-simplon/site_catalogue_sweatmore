@@ -163,9 +163,10 @@ input{
 }
 
 #popup_newsletter{
+    display : none;
     position : fixed;
     height : 100px;
-    width : 50%;
+    width : 60%;
     background-color : rgba(108, 122, 137, 0.8);
     top : 0;
     bottom : 0;
@@ -175,13 +176,13 @@ input{
     text-align : center;
 }
 
-#popup_newsletter form{
-    height : 100%;
-}
-
 #popup_newsletter i{
     position : absolute;
     top : 10px;
     right : 20px;
     font-size : 2.em;
+}
+
+#popup_newsletter #submit{
+    width : 100px;
 }
