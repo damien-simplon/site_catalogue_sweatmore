@@ -5,9 +5,10 @@
     echo'
         <div class="header-login">
             <a href="index.php" class="logo">
-                <img class="Logo" src="./img/logo.png" alt="SweatMore"> 
+                <img class="Logo" src="./img/logo.png" alt="SweatMore">
             </a>
         </div>
+        
         <div class="container">
 
                 <h3 class="text-center">Créer un nouveau compte</h3>
