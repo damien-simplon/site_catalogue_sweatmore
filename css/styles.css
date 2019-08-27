@@ -40,6 +40,8 @@ nav h2{
 } 
 
 
+
+
 /********************PRODUIT*******************/
 
 #produit_image_main{
@@ -75,6 +77,77 @@ nav h2{
     margin-bottom : 50px;
 }
 
+/********************FORMULAIRE DE CONTACT********************/
+
+#form h2{
+    color:rgb(0, 130, 195);
+}
+#form{
+    position:absolute;
+    text-align:center;
+    top:30px;
+    margin-left:300px;
+    margin-right:200px;
+    height:70px;
+    width:800px;
+    background-color: #F8F9FA;
+}
+
+#insertForm{
+    height:100px;
+    position:relative;
+    background-image:url("../img/banniere.jpg");
+    background-image:no-repeat;
+    opacity:0.3;
+    width:800px;
+    margin-right:20px;
+    background-color:rgb(0, 130, 195);
+  
+}
+
+.nomEmail span{
+    float:top;
+}
+.nomEmail{
+    position:absolute;
+    display:flex;
+    padding-left:40px;
+    top:200px;
+}
+
+.email{
+    margin-left:10%;
+    margin-right:1%;
+}
+
+.subject{
+    position:absolute;
+    width:auto;
+    top:260px;
+    padding-left:65px;
+    margin-right:1%;
+}
+
+#message{
+    position:absolute;
+    top:300px;
+    padding-left:30px;
+}
+
+
+.submit{
+    position:absolute;
+    top:500px;
+    padding-left: 60px;
+}
+
+.contactMore{
+    position:absolute;
+    padding-left:80px;
+    top:500px;
+}
+
+
 /********************FOOTER********************/
 
 footer{
@@ -89,7 +162,7 @@ footer{
 
 .footerHeader a{
     position:relative;
-    top:10px;
+    top:1px;
     color:white;
     font-size:20px;
 }
@@ -102,7 +175,7 @@ footer{
 .footerBas a{
     margin-left:5%;
     margin-right:5%;
-    color:white;
+    color:white
     font-size:40px;
 }
 /********************CONNEXION********************/
