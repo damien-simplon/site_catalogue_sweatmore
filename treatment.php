@@ -122,4 +122,32 @@
             header("Location: index.php");
         }
 
-    ?>
+
+        
+
+                // RECHERCHE SUR COOKIE DERNIER PRODUIT VISITE AVEC PRODUCTS DANS BDD //
+                // CREER UN COOKIE
+                setcookie('pseudo', $_COOKIE['produit'] ., time() + 365*24*3600); 
+
+                // VERIFIER que COOKIE EXISTE //
+                if(!empty($_COOKIE['products'])){
+                $listing = $_COOKIE['products']; 
+                $listeProducts= unserialize($listing);
+                echo $_COOKIE['products'];
+                }
+                else{
+                echo 'Vous n\'avez pas encore visité de produit.
+                Les produits que vous visitez sont ajoutés automatiquement.';
+                }
+
+                // On lance une nouvelle fois le dé
+                $listeProducts[] = rand(1,3);
+                // On sérialise le tableau et on crée le cookie
+                $listing = serialize($listeProducts);
+                setcookie('products', $listinge, time()+3600*24);
+                // On calcule le nombre de lancés de dé
+                $nombreProducts = count($listeProducts);
+
+?>
+
+    
