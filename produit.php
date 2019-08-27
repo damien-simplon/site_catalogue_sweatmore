@@ -34,6 +34,7 @@
   </p>
 </div>
 
+<script type="text/javascript" src="./js/produit.js"></script>
 
 <?php
   include "include/footer.inc.html";
