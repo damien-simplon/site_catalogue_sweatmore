@@ -164,7 +164,7 @@ nav h2{
     color:black;
 }
 
-.pageClic{
+.pageClicMentions{
     position:absolute;
     background-color: rgba(100, 119, 137, 0.6);
     height:1000px;
@@ -186,32 +186,167 @@ nav h2{
     text-align:center;
 }
 
-/********************FORMULAIRE DE CONTACT********************/
+/********************A PROPOS********************/
+.containerNavApropos{
+    position:relative;
+    background-color: #F8F9FA;
+    height:300px;
+    width:230px;
+    margin-left:150px;
+    margin-top:30px;
+}
 
-#form h2{
+
+
+.containerNavApropos{
+    position:relative;
+    background-color: #F8F9FA;
+    height:300px;
+    width:230px;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+.containerNavApropos h3{
     color:rgb(0, 130, 195);
+    padding:10px;
+}
+.containerNavApropos button{
+ width:230px;
+ height:30px;
+}
+
+.list-footer-apropos li{
+    font-size:0.8em;
+    text-align:center;
+}
+
+.list-footer-apropos li a{
+    color:black;
+}
+
+.pageClicApropos{
+    position:absolute;
+    background-color: rgba(100, 119, 137, 0.6);
+    height:1000px;
+    width:800px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:450px;
+    top:85px;
+    color:white;
+}
+
+#list-apropos-page button h3{
+    padding-left:0px;
+    padding-right:0px;
+    width:750px;
+    height:20px;
+    font-size:1.2em;
+    text-align:center;
+}
+
+#popup_bienvenue{
+    display : none;
+    position : fixed;
+    height : 100px;
+    width : 60%;
+    background-color : rgba(108, 122, 137, 0.8);
+    top : 0;
+    bottom : 0;
+    left : 0;
+    right : 0;
+    margin : auto;
+    text-align : center;
+}
+
+#popup_bienvenue i{
+    position : absolute;
+    top : 10px;
+    right : 20px;
+    font-size : 2.em;
+}
+
+/********************CONTACT********************/
+.containerNavContact{
+    position:relative;
+    background-color: #F8F9FA;
+    height:300px;
+    width:230px;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+
+
+.containerNavContact{
+    position:relative;
+    background-color: #F8F9FA;
+    height:300px;
+    width:230px;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+.containerNavContact h3{
+    color:rgb(0, 130, 195);
+    padding:10px;
+}
+.containerNavContact button{
+ width:230px;
+ height:30px;
+}
+
+.list-footer-contact li{
+    font-size:0.8em;
+    text-align:center;
+}
+
+.list-footer-contact li a{
+    color:black;
+}
+
+.pageClicContact{
+    position:absolute;
+    background-color: rgba(100, 119, 137, 0.6);
+    height:1000px;
+    width:800px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:450px;
+    top:85px;
+    color:white;
+}
+
+#list-contact-page button h3{
+    padding-left:0px;
+    padding-right:0px;
+    width:750px;
+    height:20px;
+    font-size:1.2em;
+    text-align:center;
 }
 #form{
     position:absolute;
     text-align:center;
-    top:30px;
-    margin-left:300px;
+    top:70px;
+    margin-left:450px;
     margin-right:200px;
-    height:70px;
+    height:30px;
     width:800px;
     background-color: #F8F9FA;
 }
 
 #insertForm{
-    height:100px;
-    position:relative;
+    height:160px;
     background-image:url("../img/banniere.jpg");
     background-image:no-repeat;
-    opacity:0.3;
+    opacity:0.5;
     width:800px;
     margin-right:20px;
     background-color:rgb(0, 130, 195);
-  
 }
 
 .nomEmail span{
@@ -246,14 +381,14 @@ nav h2{
 
 .submit{
     position:absolute;
-    top:500px;
+    top:370px;
     padding-left: 60px;
 }
 
 .contactMore{
     position:absolute;
     padding-left:80px;
-    top:500px;
+    top:370px;
 }
 
 
