@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `articles` (
 DROP TABLE IF EXISTS newsletter;
 CREATE TABLE newsletter (id int(11) PRIMARY KEY NOT NULL AUTO_INCREMENT, email varchar(255) NOT NULL);
 DROP TABLE IF EXISTS contact;
-CREATE TABLE contact (id int(11) PRIMARY KEY NOT NULL AUTO_INCREMENT, nom varchar(255) NOT NULL, email varchar(255) NOT NULL, sujet varchar(255) NOT NULL, message varchar(255) NOT NULL);
+CREATE TABLE contact (id int(11) PRIMARY KEY NOT NULL AUTO_INCREMENT, nom varchar(255) NOT NULL, email varchar(255) NOT NULL, sujet varchar(255) NOT NULL, message varchar(255) NOT NULL, created_at datetime NOT NULL);
 --
 -- Dumping data for table `users`
 --

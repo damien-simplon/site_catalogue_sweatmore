@@ -201,7 +201,7 @@
 
         //formulaire de contact
         if(isset($_POST['submit_contact'])){
-            $insertContact = $bdd->prepare('INSERT INTO contact (nom,email,sujet,message) VALUES(:nom,:email,:sujet,:msg)');
+            $insertContact = $bdd->prepare('INSERT INTO contact (nom,email,sujet,message,created_at) VALUES(:nom,:email,:sujet,:msg,now())');
             $insertContact->bindParam(":nom",$nom);
             $insertContact->bindParam(":email",$email);
             $insertContact->bindParam(":sujet",$sujet);
