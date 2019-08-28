@@ -199,7 +199,28 @@
             header("Location: index.php");
         }
 
+        //formulaire de contact
+        if(isset($_POST['submit_contact'])){
+            $insertContact = $bdd->prepare('INSERT INTO contact (nom,email,sujet,message) VALUES(:nom,:email,:sujet,:msg)');
+            $insertContact->bindParam(":nom",$nom);
+            $insertContact->bindParam(":email",$email);
+            $insertContact->bindParam(":sujet",$sujet);
+            $insertContact->bindParam(":msg",$msg);
+            
 
+            $nom = htmlspecialchars($_POST['name']);
+            $email = htmlspecialchars($_POST['email']);
+            $sujet = htmlspecialchars($_POST['sujet']);
+            $msg = htmlspecialchars($_POST['msg']);
+
+            $insertContact->execute();
+
+            $_SESSION['notification'] = '
+            <div class="erreur fixed-top" role="alert">Merci, nous tâcherons de rapidement vous apporter une réponse !</div>';
+
+            header("Location: index.php");
+
+        }
         
 
                 // RECHERCHE SUR COOKIE DERNIER PRODUIT VISITE AVEC PRODUCTS DANS BDD //

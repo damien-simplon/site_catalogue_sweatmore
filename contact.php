@@ -14,6 +14,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+<<<<<<< HEAD
+=======
+<div id="formBanniere">
+        <form action="treatment.php" method="post">
+                <div id="form">
+>>>>>>> c18c821ea2cfe8e9c8436d7bc8be169d42726e0c
                 <h2>SweatMore</h2>
 
                 <?php if (isset($_SESSION['user-id'])){ ?>
@@ -84,7 +90,7 @@
 					<span class="focus-input100"></span>
 				
 					<span class="email">Email</span>
-					<input class="input100" type="text" name="email" placeholder="Entrez votre email">
+					<input class="input100" type="email" name="email" placeholder="Entrez votre email">
 					<span class="focus-input100"></span>
 				</div>
 
@@ -94,13 +100,20 @@
 						<span class="focus-input100"></span>
 				</div>
                                 
+<<<<<<< HEAD
 				<div id="message">
 					<label for="msg">Message :</label>
 					<textarea id="msg" name="user_message"></textarea>
 				</div>
+=======
+                                <div id="message">
+                                <label for="msg">Message :</label>
+                                        <textarea id="msg" name="msg"></textarea>
+                                </div>
+>>>>>>> c18c821ea2cfe8e9c8436d7bc8be169d42726e0c
 
 				<div class="submit">
-					<button class="contact100-form-btn">
+					<button type="submit" name="submit_contact" class="contact100-form-btn">
 						<span>
 							Envoyer
 							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
