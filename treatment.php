@@ -189,7 +189,7 @@
 
         //inscription à la newsletter via la popup
         if(isset($_POST['inscription_newsletter'])){
-            $insertmail=$bdd->prepare('INSERT INTO newsletter VALUE(:mail)');
+            $insertmail=$bdd->prepare('INSERT INTO newsletter (email) VALUES(:mail)');
             $insertmail->bindParam(":mail",$mail);
             $mail = htmlspecialchars($_POST['email']);
             $insertmail->execute();
