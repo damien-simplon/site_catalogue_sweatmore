@@ -3,9 +3,10 @@
 
     <head>
 
-        <?php
-            include "../include/head.inc.html";
-        ?>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
 
     </head>
 
@@ -14,28 +15,36 @@
     <?php
         include "../include/header.inc.php";
     ?>
-<div id="container">
-        <div class="card col-md-3">
+    <img src="../img/banniere/banniere_sweat.jpg" alt="Banniere Sweat" style="width:100%">
+<div class="container">
+    <div class="row">
+    <div class="card col-md-3" style="margin-top:10px;">
             <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div class="card col-md-3">
+        <div class="card col-md-3" style="margin-top:10px;">
             <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div class="card col-md-3">
+        <div class="card col-md-3" style="margin-top:10px;">
             <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
-    
+
+        <div class="card col-md-3" style="margin-top:10px;">
+            <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
 </div>
 </div>
 

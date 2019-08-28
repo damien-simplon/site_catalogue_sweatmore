@@ -234,17 +234,6 @@ footer{
 }
 
 /********************CONNEXION********************/
-.container{
-    position:relative;
-    background-color: black;
-    opacity:0.6;
-    color:white;
-    width:350px;
-    height:auto;
-    bottom:20px;
-    text-align:center;
-    margin:0 auto;
-}
 
 input{
     width:270px;
