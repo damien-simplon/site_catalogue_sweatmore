@@ -53,7 +53,8 @@
                 </div>
             </nav>
         </header>
-        
+    
+<div class="pageMentions">
     <!-- la page concernée, faire ressortir l'onglet -->
     <div class="containerNavMentions">
         <h3>Informations légales</h3>
@@ -107,6 +108,7 @@
                 SweatMore ne sont pas applicables aux achats en ligne sur le site www.SweatMore.fr et inversement.</p></li>
             </ul>
     </div>
+                </div>
 
         <?php include "./include/footer.inc.html"; ?>
 

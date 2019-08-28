@@ -136,7 +136,13 @@ nav h2{
 }
 
 /********************MENTIONS LEGALES********************/
+a:hover {
+    background-color: rgb(0, 130, 195);
+  }
 
+.pageMentions{
+    height:500px;
+}
 .containerNavMentions{
     position:relative;
     background-color: #F8F9FA;
@@ -407,6 +413,75 @@ nav h2{
     top:370px;
 }
 
+/********************CGV***********************/
+#containerClicCgv{
+    height:280px;
+}
+.containerNavCgv{
+    position:relative;
+    background-color: #F8F9FA;
+    height:300px;
+    width:230px;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+.containerNavCgv{
+    position:relative;
+    background-color: #F8F9FA;
+    height:300px;
+    width:230px;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+.containerNavCgv h3{
+    color:rgb(0, 130, 195);
+    padding:10px;
+}
+.containerNavCgv button{
+ width:230px;
+ height:30px;
+}
+
+.list-footer-cgv li{
+    font-size:0.8em;
+    text-align:center;
+}
+
+.list-footer-cgv li a{
+    color:black;
+}
+
+.pageCgv{
+    height:500px;
+}
+.pageClicCgv{
+    position:absolute;
+    background-color: rgba(100, 119, 137, 0.6);
+    background-image:url('../img/logo.png');
+    background-position:left;
+    background-size:150%;
+    height:500px;
+    width:800px;
+    padding-top:50px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:450px;
+    top:85px;
+    color:white;
+}
+
+#downloadCgv{
+    color:rgb(0, 130, 195);
+    font-size:2.6em;
+    text-align:center;
+}
+#list-cgv-page button h3{
+    padding-left:0px;
+    font-size:1.2em;
+    text-align:center;
+}
 
 /********************FAQ***********************/
 #containerClicFaq{
