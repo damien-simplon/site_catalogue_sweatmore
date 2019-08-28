@@ -6,10 +6,18 @@
 
         <h2>SweatMore</h2>
 
+        <?php if (isset($_SESSION['user-id'])){ ?>
+        <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
+            <li class="nav-item p-2"><a class="nav-link" href="./compte.php">Mon compte</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="./deconnexion.php">Deconnexion</a></li>
+        </ul>
+
+        <?php } else { ?> 
         <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
             <li class="nav-item p-2"><a class="nav-link" href="./connexion.php">Connexion</a></li>
             <li class="nav-item p-2"><a class="nav-link" href="./inscription.php">Inscription</a></li>
         </ul>
+        <?php } ?>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">

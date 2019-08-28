@@ -15,23 +15,31 @@
     <?php
         include "../include/header.inc.php";
     ?>
+    <img src="../img/banniere/banniere_sweat.jpg" alt="Banniere Sweat" style="width:100%">
 <div class="container">
     <div class="row">
-    <div class="card" style="width: 18rem;margin-top:10px">
+    <div class="card col-md-3" style="margin-top:10px;">
             <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card col-md-3" style="margin-top:10px;">
             <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card col-md-3" style="margin-top:10px;">
+            <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card col-md-3" style="margin-top:10px;">
             <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
