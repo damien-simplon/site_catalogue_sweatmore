@@ -461,16 +461,39 @@ nav h2{
     text-align:center;
 }
 /********************FOOTER********************/
-.reassurance #list-rea-footer{
-    background-color: #F8F9FA;
-    text-align:center;
-    height:130px;
-    padding-top:20px;
+
+.fa-volume-control-phone{
+    font-size:150px;
+    margin: 20px;
+    vertical-align:middle;
+}
+.fa-map-marker{
+    font-size:150px;
+    margin: 20px;
+    vertical-align:middle;
+}
+.fa-truck{
+    font-size:150px;
+    margin: 20px;
+    vertical-align:middle;
+}
+.fa-credit-card{
+    font-size:150px;
+    margin: 20px;
+    vertical-align:middle;
 }
 
-.reassurance #list-rea-footer a{
+#support{
+    display:flex;
+	flex-direction:column;
+	margin-bottom:10px;
+    background-color:#f8f9fa;
+    width:100%;
+}
+
+#support p{
     color:black;
-    font-size:1em;
+    text-align:center;
 }
 
 footer{
