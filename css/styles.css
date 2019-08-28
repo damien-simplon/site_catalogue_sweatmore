@@ -567,3 +567,13 @@ input{
     height:70px;
 
 }
+
+/********************CATALOGUE********************/
+.card{
+    border-radius: 0!important;
+}
+.btn-voirplus{
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 0!important;
+}
