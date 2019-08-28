@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include "./include/bdd.inc.php";
     include "include/head.inc.html";
 
 ?>

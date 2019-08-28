@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start();
+ include "./include/bdd.inc.php"; ?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
