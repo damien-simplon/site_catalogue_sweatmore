@@ -127,7 +127,7 @@
 
                 // RECHERCHE SUR COOKIE DERNIER PRODUIT VISITE AVEC PRODUCTS DANS BDD //
                 // CREER UN COOKIE
-                setcookie('pseudo', $_COOKIE['produit'] ., time() + 365*24*3600); 
+                setcookie('pseudo', $_COOKIE['produit'] , time() + 365*24*3600); 
 
                 // VERIFIER que COOKIE EXISTE //
                 if(!empty($_COOKIE['products'])){
