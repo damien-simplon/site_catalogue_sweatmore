@@ -487,22 +487,16 @@ nav h2{
 }
 
 #support{
-    display:inline;
-    background-color:blue;
+    display:flex;
+	flex-direction:column;
+	margin-bottom:10px;
+    background-color:#f8f9fa;
+    width:100%;
 }
 
 #support p{
-    color:white;
+    color:black;
     text-align:center;
-}
-hr{
-    width: 30%;
-    height: 2px;
-    background-color:white;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
 }
 
 footer{
