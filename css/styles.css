@@ -225,10 +225,13 @@ nav h2{
     color:black;
 }
 
+.pageApropos{
+    height:600px;
+}
 .pageClicApropos{
     position:absolute;
     background-color: rgba(100, 119, 137, 0.6);
-    height:1000px;
+    height:540px;
     width:800px;
     padding-top:20px;
     padding-left:20px;
@@ -236,6 +239,15 @@ nav h2{
     margin-left:450px;
     top:85px;
     color:white;
+}
+
+.pageClicApropos a{
+    text-align:right;
+    color:rgb(0, 130, 195);
+}
+#contactPageClicApropos{
+
+    text-align:center;
 }
 
 #list-apropos-page button h3{
@@ -494,6 +506,7 @@ nav h2{
 #support p{
     color:black;
     text-align:center;
+    font-size:0.8em;
 }
 
 footer{
