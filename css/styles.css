@@ -269,6 +269,10 @@ nav h2{
 }
 
 /********************CONTACT********************/
+
+#formBanniere{
+    height:230px;
+}
 .containerNavContact{
     position:relative;
     background-color: #F8F9FA;
@@ -392,6 +396,73 @@ nav h2{
 }
 
 
+/********************FAQ***********************/
+
+#img{
+    text-align:center;
+}
+#img img {
+	display:block;
+}
+.containerNavFaq{
+    position:relative;
+    background-color: #F8F9FA;
+    height:300px;
+    width:230px;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+
+
+.containerNavFaq{
+    position:relative;
+    background-color: #F8F9FA;
+    height:300px;
+    width:230px;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+.containerNavFaq h3{
+    color:rgb(0, 130, 195);
+    padding:10px;
+}
+.containerNavFaq button{
+ width:230px;
+ height:30px;
+}
+
+.list-footer-faq li{
+    font-size:0.8em;
+    text-align:center;
+}
+
+.list-footer-faq li a{
+    color:black;
+}
+
+.pageClicFaq{
+    position:absolute;
+    background-color: rgba(100, 119, 137, 0.6);
+    height:300px;
+    width:800px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:450px;
+    top:85px;
+    color:white;
+}
+
+#list-faq-page button h3{
+    padding-left:0px;
+    padding-right:0px;
+    width:750px;
+    height:20px;
+    font-size:1.2em;
+    text-align:center;
+}
 /********************FOOTER********************/
 .reassurance #list-rea-footer{
     background-color: #F8F9FA;
