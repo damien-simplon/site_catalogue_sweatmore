@@ -556,23 +556,23 @@ a:hover {
 }
 /********************FOOTER********************/
 
-.fa-volume-control-phone{
-    font-size:150px;
+.fa-headset{
+    font-size:30px;
     margin: 20px;
     vertical-align:middle;
 }
 .fa-map-marker{
-    font-size:150px;
+    font-size:30px;
     margin: 20px;
     vertical-align:middle;
 }
-.fa-truck{
-    font-size:150px;
+.fa-truck-moving{
+    font-size:30px;
     margin: 20px;
     vertical-align:middle;
 }
 .fa-credit-card{
-    font-size:150px;
+    font-size:30px;
     margin: 20px;
     vertical-align:middle;
 }
@@ -639,8 +639,6 @@ input{
 .form-group .sexe input{
     width : 30px;
 }
-
-
 
 .Logo{
     width:200px;
