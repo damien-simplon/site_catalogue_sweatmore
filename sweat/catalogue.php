@@ -63,30 +63,54 @@
         <div class="container">
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+
                     <img src="../img/produit/sweat/01/sweat_front.jpg" class="card-img-top" alt="Sweat escalade">
+
                     <div class="card-body">
                         <p class="card-text">Le temps d'assurage et le temps de repos n'a jamais été aussi confortable !</p>
                     </div>
+
+                    <div class="text-right">
+                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
+                    </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+
                     <img src="../img/produit/sweat/02/sweat_front.jpg" class="card-img-top" alt="Sweat escalade">
+
                     <div class="card-body">
                         <p class="card-text">Polaire pour la grimpeuse cherchant un vêtement douillet et confortable pour assurer aux pieds des voies.</p>
                     </div>
-                </div>
-
-                <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="../img/produit/sweat/03/sweat_front.jpg" class="card-img-top" alt="Sweat yoga">
-                    <div class="card-body">
-                        <p class="card-text">Ce sweat chaud et doux vous procurera une sensation de bien-être avant et après votre séance.</p>
+                    
+                    <div class="text-right">
+                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+
+                    <img src="../img/produit/sweat/03/sweat_front.jpg" class="card-img-top" alt="Sweat yoga">
+
+                    <div class="card-body">
+                        <p class="card-text">Ce sweat chaud et doux vous procurera une sensation de bien-être avant et après votre séance.</p>
+                    </div>
+
+                    <div class="text-right">
+                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+
                     <img src="../img/produit/sweat/04/sweat_front.jpg" class="card-img-top" alt="Sweat rugby">
+
                     <div class="card-body">
                         <p class="card-text">Confortable et chaud grâce à son composant molletonné, il vous accompagnera partout sur et en dehors des terrains de rugby.</p>
+                    </div>
+
+                    <div class="text-right">
+                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
                     </div>
                 </div>
             </div>

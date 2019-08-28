@@ -63,30 +63,54 @@
         <div class="container">
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+
                     <img src="../img/produit/men/01/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme running">
+
                     <div class="card-body">
                         <p class="card-text">Tenue de running qui vous apporte un confort thermique idéal lors de vos sorties.</p>
                     </div>
+
+                    <div class="text-right">
+                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
+                    </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+
                     <img src="../img/produit/men/02/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme velo">
+
                     <div class="card-body">
                         <p class="card-text">Tenue de vélo homme qui vous offre une bonne évacuation de la transpiration</p>
                     </div>
-                </div>
 
-                <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="../img/produit/men/03/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme volley-ball">
-                    <div class="card-body">
-                        <p class="card-text">Tenue très légere, qui accompagne vos mouvements de beach-volley</p>
+                    <div class="text-right">
+                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+
+                    <img src="../img/produit/men/03/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme volley-ball">
+
+                    <div class="card-body">
+                        <p class="card-text">Tenue très légere, qui accompagne vos mouvements de beach-volley</p>
+                    </div>
+
+                    <div class="text-right">
+                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+
                     <img src="../img/produit/men/04/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme">
+
                     <div class="card-body">
                         <p class="card-text">Tenue en matière respirante avec élasticité</p>
+                    </div>
+                    
+                    <div class="text-right">
+                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
                     </div>
                 </div>
             </div>
