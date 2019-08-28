@@ -100,6 +100,83 @@
             }
             
 
+
+            if(isset($_POST['formaddadmin'])) {
+
+                // VERIFICATION BACKGROUND
+                if (!empty($_FILES['image']['tmp_name'])) {
+                    $tailleMax = 1000000;
+                    $extensionsValides = array('jpg', 'jpeg', 'png', 'gif');
+                    // VERIFICATION TAILLE FICHIER BACKGROUND
+                    if ($_FILES['image']['size'] <= $tailleMax) {
+                        $extensionsUpload = strtolower(substr(strrchr($_FILES['image']['name'], '.'), 1));
+                        // VERIFICATION EXTENSION
+                        if (in_array($extensionsUpload, $extensionsValides)) {
+                            $chemin = "img/".$_SESSION['user-id'].".".$extensionsUpload;
+                            $resultatFile = move_uploaded_file($_FILES['image']['tmp_name'], $chemin);
+                            // SI TOUT OK METTRE A JOUR LE BACKGROUND
+                            if ($resultatFile) {
+                                $photo = "img/". $_SESSION['user-id'].".".$extensionsUpload;
+                                 $updatefile = $bdd->prepare("INSERT INTO articles (photo) VALUES(photo");
+                                 $updatefile->bindParam(":photo",$photo);
+                                 $updatefile->execute();
+                                 $_SESSION['notification'] = '
+                                <div class="succes fixed-top" role="alert">Les modifications ont été enregistrées!</div>';
+
+                                header("Location: index.php");
+                            } 
+                            // SINON ERREUR IMPORTATION
+                            else{
+                             $_SESSION['notification'] = '
+                             <div class="erreur fixed-top" role="alert">Erreur lors de l importation</div>';
+
+                             header("Location: index.php");
+                            }
+                        } 
+                        // ERREUR FORMAT
+                        else{
+                            $_SESSION['notification'] = '
+                             <div class="erreur fixed-top" role="alert">Erreur format</div>';
+
+                             header("Location: index.php");
+                        }
+                      // ERREUR POIDS FICHIER
+                    } else{
+                        $_SESSION['notification'] = '
+                             <div class="erreur fixed-top" role="alert">Le fichier est trop lourd / Taille maxi : 1 mo</div>';
+
+                             header("Location: index.php");
+                    }
+                 }
+
+                // SI PAS DE FICHIER SELECTIONNE
+                else if(empty($_FILES['img']['tmp_name'])){
+                    $_SESSION['notification'] = '
+                        <div class="succes fixed-top" role="alert">Les modifications ont été enregistrées!</div>';
+
+                        header("Location: index.php");
+                }
+
+                    // MISE A JOUR DES DONNEES
+                    $nom=$_POST['nom'];
+                    $cat=$_POST['cat'];
+                    $descri=$_POST['descri'];
+                    $req = $bdd->prepare('INSERT INTO articles (nom, cat,descri) VALUES(:nom,:cat,:descri)');
+                    $req->bindParam(":nom",$nom);
+                    $req->bindParam(":cat",$cat);
+                    $req->bindParam(":descri",$descri);
+                    $req->execute();
+
+                    header("Location: index.php");
+                 }
+
+
+
+
+
+
+
+
             // DECONNECTION
             if(isset($_GET['disconnection'])){
                 session_destroy();
@@ -127,7 +204,7 @@
 
                 // RECHERCHE SUR COOKIE DERNIER PRODUIT VISITE AVEC PRODUCTS DANS BDD //
                 // CREER UN COOKIE
-                setcookie('pseudo', $_COOKIE['produit'] ., time() + 365*24*3600); 
+                setcookie('pseudo', $_COOKIE['produit'] , time() + 365*24*3600); 
 
                 // VERIFIER que COOKIE EXISTE //
                 if(!empty($_COOKIE['products'])){

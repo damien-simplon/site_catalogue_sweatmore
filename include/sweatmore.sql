@@ -19,6 +19,14 @@ CREATE TABLE IF NOT EXISTS `users` (
   `sexe` varchar(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE IF NOT EXISTS `articles` (
+  `id` int(11) NOT NULL,
+  `nom` varchar(255) NOT NULL,
+  `cat` varchar(100) NOT NULL,
+  `descri` varchar(255) NOT NULL,
+  `photo` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 
 CREATE TABLE IF NOT EXISTS `newsletter` (`email` varchar(255) NOT NULL);
 --
