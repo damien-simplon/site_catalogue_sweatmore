@@ -63,30 +63,30 @@
         <div class="container">
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/t-shirt/01/tshirt_front.jpg" class="card-img-top" alt="T-shirt de randonné">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Vous aimez évoluer rapidement et sans contrainte en montagne ?</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/t-shirt/02/tshirt_front.jpg" class="card-img-top" alt="T-shirt de Crosstraining">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">T-shirt de Crosstraining ultra léger et résistant.</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/t-shirt/03/tshirt_front.jpg" class="card-img-top" alt="T-shirt de fitgirls">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Ce t-shirt en polyester aura un succès inévitable auprès des fitgirls avec sa forme loose.</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/t-shirt/04/tshirt_front.jpg" class="card-img-top" alt="T-shirt de badminton">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">T-shirt 1er prix conçu pour le badminton, confortable et léger.</p>
                     </div>
                 </div>
             </div>

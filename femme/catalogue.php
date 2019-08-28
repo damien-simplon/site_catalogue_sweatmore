@@ -63,30 +63,30 @@
         <div class="container">
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/women/01/tenue_complete_women_front.jpg" class="card-img-top" alt="Tenue complète femme yoga">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Cette tenue de yoga est une véritable seconde peau respirante.</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/women/02/tenue_complete_women_front.jpg" class="card-img-top" alt="Tenue complète femme fitness">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Un indispensable de votre vestiaire fitness.</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/women/03/tenue_complete_women_front.jpg" class="card-img-top" alt="Tenue complète femme football">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Tenue de football.</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/women/04/tenue_complete_women_front.jpg" class="card-img-top" alt="Tenue complète femme tennis">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Tenue aussi bien adapté à la pratique du tennis que du badminton.</p>
                     </div>
                 </div>
             </div>

@@ -63,30 +63,30 @@
         <div class="container">
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/baskets/01/basket_cote.jpg" class="card-img-top" alt="Basket de Running">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Cette chaussure est faite pour défier vos chronos que ce soit en entraînement fractionné, ou le jour de la compétition.</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/baskets/02/basket_cote.jpg" class="card-img-top" alt="Basket de Basket-Ball">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Cette chaussure de Basketball tige basse a été développé pour vous offrir un maximum d'adhérence.</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/baskets/03/basket_cote.jpg" class="card-img-top" alt="Basket de Futsal">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Vous recherchez une chaussure légère et flexible pour jouer au futsal ?</p>
                     </div>
                 </div>
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-                    <img src="https://i2.cdscdn.com/pdt2/7/6/2/1/700x700/mp07228762/rw/3d-pullover-sweat-a-capuche-homme-femme-couple-cos.jpg" class="card-img-top" alt="...">
+                    <img src="../img/produit/baskets/04/basket_cote.jpg" class="card-img-top" alt="Basket de Marche sportive">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Alix, ingénieure produit, a développé cette chaussure pour vos sorties occasionnelles de marche sportive.</p>
                     </div>
                 </div>
             </div>
