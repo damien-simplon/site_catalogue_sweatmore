@@ -73,7 +73,7 @@
 
 
 	<div id="formBanniere"></div>
-        <form>
+        <form action="treatment.php" method="post">
 		<div id="form">
 		<span class="contact">Contactez-nous</span>
 
