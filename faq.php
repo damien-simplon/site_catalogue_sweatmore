@@ -69,11 +69,10 @@
         </div>
     </div>
 
+<div id="containerClicFaq">
     <div class="pageClicFaq">
-        <div id="img">
-            <img src="./img/logo.png" alt="logo entreprise">
-                </div>
-        <h2>Questions fréquentes (FAQ)</h2><br>
+     
+        <h2>Vos questions...<br>...Nos réponses.</h2><br>
              <ul id="list-faq-page">
             <button><li><h3>Comment fonctionne un retour magasin?</h3></button>
                 <p>Le processus de remboursement est en cours de finalisation.</p>
