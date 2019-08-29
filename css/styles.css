@@ -565,66 +565,60 @@ nav h2{
     text-align:center;
 }
 /********************FOOTER********************/
-
-.fa-headset{
-    font-size:30px;
-    margin: 20px;
-    vertical-align:middle;
-}
-.fa-map-marker{
-    font-size:30px;
-    margin: 20px;
-    vertical-align:middle;
-}
-.fa-truck-moving{
-    font-size:30px;
-    margin: 20px;
-    vertical-align:middle;
-}
-.fa-credit-card{
-    font-size:30px;
-    margin: 20px;
-    vertical-align:middle;
-}
-
-#support{
-    display:flex;
-	flex-direction:column;
-	margin-bottom:10px;
-    background-color:#f8f9fa;
-    width:100%;
-}
-
-#support p{
-    color:black;
-    text-align:center;
-    font-size:0.8em;
-}
-
 footer{
     background-color:rgb(0, 130, 195);
-    margin-top: 20px;
 }
-.list-footer{
+#list-footer-support{
+    margin-top: 50px;
+}
+.icon-support{
+    font-size:30px;
+    margin: 20px;
+    vertical-align:middle;
+}
+#support{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color: #f8f9fa;
+    font-size: 0.8em;
+}
+#list-footer-cgu{
     padding-top: 20px;
-    justify-content: center;
 }
-#list-lien-footer, #list-icon-footer{
+#list-lien-cgu, #list-icon-reseaux{
     display: flex;
     justify-content: center;
     margin-bottom: 0;
 }
-.lien-footer{
+.lien-cgu{
     color: white;
     margin-left: 30px;
     margin-right: 30px;
 }
+#list-footer-reseaux{
+    padding-top: 30px;
+}
 .icon-reseaux{
     color: white;
-    font-size: 45px!important;
+    font-size: 45px;
     margin-left: 40px;
     margin-right: 40px;
     padding-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+    #support{
+        flex-direction: column;
+        align-items: center;
+    }
+    #list-lien-cgu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .element-cgu{
+        padding-bottom: 20px;
+    }
 }
 
 /********************CONNEXION********************/
