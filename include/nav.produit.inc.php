@@ -40,11 +40,11 @@
                 <a class="nav-link" href="../femme/catalogue.php">Femme</a>
             </li>   
             <?php if (isset($_SESSION['user-id'])){ ?>
-            <li class="nav-item connexion_inscription_menu"><a class="nav-link" href="../compte.php">Mon compte</a></li>
+            <li class="nav-item connexion_inscription_menu border-nav"><a class="nav-link" href="../compte.php">Mon compte</a></li>
             <li class="nav-item connexion_inscription_menu"><a class="nav-link" href="../deconnexion.php">Deconnexion</a></li>
 
                 <?php } else { ?> 
-            <li class="nav-item connexion_inscription_menu"><a class="nav-link" href="../connexion.php">Connexion</a></li>
+            <li class="nav-item connexion_inscription_menu border-nav"><a class="nav-link" href="../connexion.php">Connexion</a></li>
             <li class="nav-item connexion_inscription_menu"><a class="nav-link" href="../inscription.php">Inscription</a></li>
             <?php } ?>              
         </ul>
