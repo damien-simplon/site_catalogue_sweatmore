@@ -25,7 +25,7 @@
 
         <img src="../img/banniere/banniere_women.jpg" alt="Banniere Femme" style="width:100%">
 
-        <div class="container">
+        <div class="container container-catalogue">
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
@@ -84,8 +84,5 @@
         <?php
             include "../include/footer.inc.html";
         ?>
-
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
