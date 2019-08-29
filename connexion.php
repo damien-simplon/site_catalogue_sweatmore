@@ -15,19 +15,19 @@ include "./include/bdd.inc.php";
     <div class="container">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <section class='formulaire'>
-            <h2>Bonjour</h2>
+            <h3>Bonjour,</h3>
             <p>Bienvenue sur SweatMore</p>
 
                 <form action="treatment.php" method="POST">
                 <br>
                 <div class="form-group">
                     <label for="email">Adresse email</label>
-                    <input type="mail" placeholder=" Entrez votre adresse mail" name="email" required>
+                    <input type="mail" class="form-control" placeholder=" Entrez votre adresse mail" name="email" required>
                 </div>
                 <br>
                 <div class="form-group">
                     <label for="mdp">Mot de passe</label>
-                    <input type="password" placeholder=" Entrez votre mot de passe" name="mdp" required>
+                    <input type="password" class="form-control" placeholder=" Entrez votre mot de passe" name="mdp" required>
                 </div>
                 <br>
                 <br>
