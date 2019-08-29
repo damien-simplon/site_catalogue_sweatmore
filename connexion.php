@@ -10,7 +10,7 @@ include "./include/bdd.inc.php";
             <img class="Logo" src="./img/logo.png" alt="SweatMore"> 
         </a>
     </div>
-
+    <div class='row'>
     <div class="container">
         <section>
         <h1>Connectez-vous</h1>
@@ -41,3 +41,4 @@ include "./include/bdd.inc.php";
         </form>
         </section>
     </div>
+</div>
