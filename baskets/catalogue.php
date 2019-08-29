@@ -1,3 +1,8 @@
+<?php
+  session_start();
+  include '../include/bdd.inc.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -13,50 +18,9 @@
     <body>
 
         <header class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <?php include "../include/nav.produit.inc.php";?>
 
-                <h2>SweatMore</h2>
-
-                <?php if (isset($_SESSION['user-id'])){ ?>
-                <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
-                    <li class="nav-item p-2"><a class="nav-link" href="../compte.php">Mon compte</a></li>
-                    <li class="nav-item p-2"><a class="nav-link" href="../deconnexion.php">Deconnexion</a></li>
-                </ul>
-
-                <?php } else { ?> 
-                <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
-                    <li class="nav-item p-2"><a class="nav-link" href="../connexion.php">Connexion</a></li>
-                    <li class="nav-item p-2"><a class="nav-link" href="../inscription.php">Inscription</a></li>
-                </ul>
-                <?php } ?>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../sweat/catalogue.php">Sweat</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../tshirt/catalogue.php">T-shirt</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="./catalogue.php">Baskets</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="../homme/catalogue.php">Homme</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="../femme/catalogue.php">Femme</a>
-                        </li>                
-                    </ul>
-                </div>
-            </nav>
         </header>
 
         <img src="../img/banniere/banniere_baskets.jpg" alt="Banniere Baskets" style="width:100%">
@@ -65,7 +29,7 @@
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
                 
-                    <img src="../img/produit/baskets/01/basket_cote.jpg" class="card-img-top" alt="Basket de Running">
+                    <a href="article_1.php"><img src="../img/produit/baskets/01/basket_cote.jpg" class="card-img-top" alt="Basket de Running"></a>
 
                     <div class="card-body">
                         <p class="card-text">Cette chaussure est faite pour défier vos chronos que ce soit en entraînement fractionné, ou le jour de la compétition.</p>
@@ -78,7 +42,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <img src="../img/produit/baskets/02/basket_cote.jpg" class="card-img-top" alt="Basket de Basket-Ball">
+                    <a href="article_2.php"><img src="../img/produit/baskets/02/basket_cote.jpg" class="card-img-top" alt="Basket de Basket-Ball"></a>
 
                     <div class="card-body">
                         <p class="card-text">Cette chaussure de Basketball tige basse a été développé pour vous offrir un maximum d'adhérence.</p>
@@ -91,7 +55,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <img src="../img/produit/baskets/03/basket_cote.jpg" class="card-img-top" alt="Basket de Futsal">
+                    <a href="article_3.php"><img src="../img/produit/baskets/03/basket_cote.jpg" class="card-img-top" alt="Basket de Futsal"></a>
 
                     <div class="card-body">
                         <p class="card-text">Vous recherchez une chaussure légère et flexible pour jouer au futsal ?</p>
@@ -104,7 +68,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <img src="../img/produit/baskets/04/basket_cote.jpg" class="card-img-top" alt="Basket de Marche sportive">
+                    <a href="article_4.php"><img src="../img/produit/baskets/04/basket_cote.jpg" class="card-img-top" alt="Basket de Marche sportive"></a>
 
                     <div class="card-body">
                         <p class="card-text">Alix, ingénieure produit, a développé cette chaussure pour vos sorties occasionnelles de marche sportive.</p>

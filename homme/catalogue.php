@@ -1,3 +1,8 @@
+<?php
+  session_start();
+  include '../include/bdd.inc.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -13,50 +18,9 @@
     <body>
 
         <header class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <?php include "../include/nav.produit.inc.php";?>
 
-                <h2>SweatMore</h2>
-
-                <?php if (isset($_SESSION['user-id'])){ ?>
-                <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
-                    <li class="nav-item p-2"><a class="nav-link" href="../compte.php">Mon compte</a></li>
-                    <li class="nav-item p-2"><a class="nav-link" href="../deconnexion.php">Deconnexion</a></li>
-                </ul>
-
-                <?php } else { ?> 
-                <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
-                    <li class="nav-item p-2"><a class="nav-link" href="../connexion.php">Connexion</a></li>
-                    <li class="nav-item p-2"><a class="nav-link" href="../inscription.php">Inscription</a></li>
-                </ul>
-                <?php } ?>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../sweat/catalogue.php">Sweat</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../tshirt/catalogue.php">T-shirt</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="../baskets/catalogue.php">Baskets</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="./catalogue.php">Homme</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="../femme/catalogue.php">Femme</a>
-                        </li>                
-                    </ul>
-                </div>
-            </nav>
         </header>
 
         <img src="../img/banniere/banniere_men.jpg" alt="Banniere Homme" style="width:100%">
@@ -65,7 +29,7 @@
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <img src="../img/produit/men/01/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme running">
+                    <a href="article_1.php"><img src="../img/produit/men/01/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme running"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue de running qui vous apporte un confort thermique idéal lors de vos sorties.</p>
@@ -78,7 +42,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <img src="../img/produit/men/02/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme velo">
+                    <a href="article_2.php"><img src="../img/produit/men/02/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme velo"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue de vélo homme qui vous offre une bonne évacuation de la transpiration</p>
@@ -91,7 +55,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <img src="../img/produit/men/03/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme volley-ball">
+                    <a href="article_3.php"><img src="../img/produit/men/03/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme volley-ball"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue très légere, qui accompagne vos mouvements de beach-volley</p>
@@ -104,7 +68,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <img src="../img/produit/men/04/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme">
+                    <a href="article_4.php"><img src="../img/produit/men/04/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue en matière respirante avec élasticité</p>
