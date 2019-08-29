@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="../css/styles.css" type="text/css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/4afe80f74f.js"></script>
 
     </head>
 
@@ -43,10 +42,10 @@
                             <a class="nav-link" href="../sweat/catalogue.php">Sweat</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./catalogue.php">T-shirt</a>
+                            <a class="nav-link" href="../tshirt/catalogue.php">T-shirt</a>
                         </li>                
                         <li class="nav-item">
-                            <a class="nav-link" href="../baskets/catalogue.php">Baskets</a>
+                            <a class="nav-link" href="./catalogue.php">Baskets</a>
                         </li>                
                         <li class="nav-item">
                             <a class="nav-link" href="../homme/catalogue.php">Homme</a>
@@ -59,69 +58,39 @@
             </nav>
         </header>
 
-        <img src="../img/banniere/banniere_tshirt.jpg" alt="Banniere T-shirt" style="width:100%">
+        <img src="../img/banniere/banniere_women.jpg" alt="Banniere Femme" style="width:100%">
 
-        <div class="container">
-            <div class="row">
-                <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
+        <div id="produit_image_main"></div>
 
-                    <img src="../img/produit/t-shirt/01/tshirt_front.jpg" class="card-img-top" alt="T-shirt de randonné">
+        <div id="produit_image">
 
-                    <div class="card-body">
-                        <p class="card-text">Vous aimez évoluer rapidement et sans contrainte en montagne ?</p>
-                    </div>
-
-                    <div class="text-right">
-                        <a class="btn btn-primary btn-voirplus" href="article_1.php" role="button">Voir plus</a>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-
-                    <img src="../img/produit/t-shirt/02/tshirt_front.jpg" class="card-img-top" alt="T-shirt de Crosstraining">
-
-                    <div class="card-body">
-                        <p class="card-text">T-shirt de Crosstraining ultra léger et résistant.</p>
-                    </div>
-
-                    <div class="text-right">
-                        <a class="btn btn-primary btn-voirplus" href="article_2.php" role="button">Voir plus</a>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-
-                    <img src="../img/produit/t-shirt/03/tshirt_front.jpg" class="card-img-top" alt="T-shirt de fitgirls">
-
-                    <div class="card-body">
-                        <p class="card-text">Ce t-shirt en polyester aura un succès inévitable auprès des fitgirls avec sa forme loose.</p>
-                    </div>
-
-                    <div class="text-right">
-                        <a class="btn btn-primary btn-voirplus" href="article_3.php" role="button">Voir plus</a>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
-
-                    <img src="../img/produit/t-shirt/04/tshirt_front.jpg" class="card-img-top" alt="T-shirt de badminton">
-
-                    <div class="card-body">
-                        <p class="card-text">T-shirt 1er prix conçu pour le badminton, confortable et léger.</p>
-                    </div>
-                    
-                    <div class="text-right">
-                        <a class="btn btn-primary btn-voirplus" href="article_4.php" role="button">Voir plus</a>
-                    </div>
-                </div>
-            </div>
+        <div class="produit_image_miniature">
+            <img src="../img/produit/women/03/tenue_complete_women_front.jpg" class="img-thumbnail" alt="Women front">
         </div>
+
+        <div class="produit_image_miniature">
+            <img src="../img/produit/women/03/tenue_complete_women_back.jpg" class="img-thumbnail" alt="Women back">
+        </div>
+
+        <div class="produit_image_miniature">
+            <img src="../img/produit/women/03/tenue_complete_women_mvmt.jpg" class="img-thumbnail" alt="Women mouvement">
+        </div>
+
+        </div>
+
+        <div id="produit_description">
+            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+        </div>
+
+
 
         <?php
             include "../include/footer.inc.html";
         ?>
 
+        <script type="text/javascript" src="../js/produit.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
     </body>
 </html>

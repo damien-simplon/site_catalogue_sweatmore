@@ -72,7 +72,7 @@
                     </div>
 
                     <div class="text-right">
-                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
+                        <a class="btn btn-primary btn-voirplus" href="article_1.php" role="button">Voir plus</a>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@
                     </div>
                     
                     <div class="text-right">
-                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
+                        <a class="btn btn-primary btn-voirplus" href="article_2.php" role="button">Voir plus</a>
                     </div>
                 </div>
 
@@ -98,7 +98,7 @@
                     </div>
 
                     <div class="text-right">
-                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
+                        <a class="btn btn-primary btn-voirplus" href="article_3.php" role="button">Voir plus</a>
                     </div>
                 </div>
 
@@ -111,7 +111,7 @@
                     </div>
 
                     <div class="text-right">
-                        <a class="btn btn-primary btn-voirplus" href="#" role="button">Voir plus</a>
+                        <a class="btn btn-primary btn-voirplus" href="article_4.php" role="button">Voir plus</a>
                     </div>
                 </div>
             </div>
