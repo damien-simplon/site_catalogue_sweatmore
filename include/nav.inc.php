@@ -43,3 +43,4 @@
                 </div>
             </nav>
         </header>
+        <script type="text/javascript" src="./js/nav.js"></script>
