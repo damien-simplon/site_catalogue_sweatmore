@@ -58,22 +58,22 @@
                 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="" class="d-block w-100" alt="1">
+                            <a href=""><img src="" class="d-block w-100"></a>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/tenue_complete_women_mvmt.jpg" class="d-block w-100" alt="2">
+                            <img src="./img/slide/tenue_complete_women_mvmt.jpg" class="d-block w-100" alt="./femme/catalogue.php">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/basket_mvmt.jpg" class="d-block w-100" alt="2">
+                            <img src="./img/slide/basket_mvmt.jpg" class="d-block w-100" alt="./baskets/catalogue.php">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/sweat_mvmt.jpg" class="d-block w-100" alt="3">
+                            <img src="./img/slide/sweat_mvmt.jpg" class="d-block w-100" alt="./sweat/catalogue.php">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/tenue_complete_men_mvmt.jpg" class="d-block w-100" alt="4">
+                            <img src="./img/slide/tenue_complete_men_mvmt.jpg" class="d-block w-100" alt="./homme/catalogue.php">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/tshirt_mvmt.jpg" class="d-block w-100" alt="5">
+                            <img src="./img/slide/tshirt_mvmt.jpg" class="d-block w-100" alt="./tshirt/catalogue.php">
                         </div>
                     </div>
                     <a class="carousel-control-prev" role="button" data-slide="prev">
