@@ -124,10 +124,6 @@ nav h2{
     width : 150px;
 }
 
-.produit_image_miniature img{
-    height : 100%;
-}
-
 #produit_description{
     position : relative;
     width : 60%;
