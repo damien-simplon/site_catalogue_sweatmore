@@ -621,8 +621,8 @@ input{
     width:200px;
 }
 
-#creationCompte{
-    padding-bottom : 20px;
+.formulaire{
+    text-align:center;
 }
 
 .form-group .sexe label{
@@ -636,12 +636,16 @@ input{
 
 .Logo{
     width:200px;
+    margin-left:-25px;
 }
 .header-login{
     height:70px;
 
 }
 
+label{
+margin-right: 15px;
+}
 /********************CATALOGUE********************/
 .card{
     border-radius: 0!important;
