@@ -27,16 +27,32 @@ header{
 
 nav h2{
     position: absolute;
-    left: 44%;
-    top : 15px;
+    right : 5%;
+    top : 10px;
     color: rgb(0, 130, 195);
     font-size:2em;
+    width : 200px;
 }
 
 #connexion_inscription{
     position : absolute;
+    visibility : hidden;
     right : 0;
     top : 2px;
+}
+
+@media (min-width : 1201px){
+    #connexion_inscription{
+        visibility : visible;
+    }
+    .connexion_inscription_menu{
+        visibility : hidden;
+    }
+    nav h2{
+        left : 50%;
+        margin-left : -100px;
+        text-align : center;
+    }
 }
 
 
