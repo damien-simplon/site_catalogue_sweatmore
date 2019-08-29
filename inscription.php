@@ -1,6 +1,7 @@
 <?php
 
     include 'include/head.inc.html';
+    include "./include/nav.inc.php";
 
     echo'
         <div class="header-login">

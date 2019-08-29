@@ -9,7 +9,7 @@ session_start();
     </head>
 
     <body>
-        <?php include "./include/header.inc.php"; ?>
+        <?php include "./include/nav.inc.php"; ?>
 
         <div class="container">
 
