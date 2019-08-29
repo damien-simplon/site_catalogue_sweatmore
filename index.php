@@ -63,6 +63,8 @@
         <p>En navigant sur ce site, vous acceptez l’utilisation des cookies.</p>
         <i class="fa fa-window-close-o" aria-hidden="true"></i>
     </div>
+
+    <script type="text/javascript" src="./js/index.js"></script>
         
     </body>
 </html>
