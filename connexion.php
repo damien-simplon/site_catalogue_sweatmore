@@ -17,7 +17,7 @@ include "./include/bdd.inc.php";
             <section class='formulaire'>
             <h3>Bonjour,</h3>
             <p>Bienvenue sur SweatMore</p>
-
+            <hr>
                 <form action="treatment.php" method="POST">
                 <br>
                 <div class="form-group">
@@ -35,7 +35,7 @@ include "./include/bdd.inc.php";
                     <button type="submit" name="submit_connection" class="btn btn-success">Se connecter</button>
                 </div>
 
-                <p>______________________________</p>
+                <hr>
                 <p>Nouveau client?</p>
                 <div id="creationCompte">
                         <input type="submit"  id='submit' value="Créer un compte">

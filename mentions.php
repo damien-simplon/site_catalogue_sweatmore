@@ -26,7 +26,8 @@
         </div>
     </div>
 
-    <div class="pageClicMentions">
+        <div id="pageClic">
+        <div class="pageClicMentions">
             <h2>Mentions Légales</h2><br>
             <p>Le site SweatMore est édité par la société SweatMore France S.A.S.,
             Société par Actions Simplifiées à capitale variable, dont le siège social
@@ -37,34 +38,35 @@
             Email : contacts@decathlon.com<br>
             Directeur de la publication : Christophe Leclerc</p>
 
-        <ul id="list-mentions-page">
-            <button><li><h3>Contact</h3></button>
-                <p>Le Centre Relation Clients de SweatMore.fr est joignable :
+      
+            <button id="afficher_cacher1"><h3>Contact</h3></button>
+             <p id="p1">Le Centre Relation Clients de SweatMore.fr est joignable :
 
                     - Par internet : via le lien Contact sur le site www.SweatMore.fr
                     - Par téléphone au 0969 368 369 (N° Cristal, prix d'un appel local depuis un téléphone fixe), du lundi au samedi
                     de 9h à 20h.
                     - Par voie postale : SWEATMORE SAS – Service Relation Clients - 4 boulevard de Mons, 59650 Villeneuve d’Ascq</p>
-                </li>
-            <button><li><h3>Protection des données personnelles</h3></button>
-                <p>Pour consulter notre charte de protection de données personnelles, <a href="#">cliquez ici.</a></p></li>
-            <button><li><h3>Propriété intellectuelle</h3></button>
-                <p>Le présent site est protégé au titre de la propriété intellectuelle, notamment droits d'auteurs,
+            <button id="afficher_cacher2"><h3>Protection des données personnelles</h3></button>
+              <p id="p2">Pour consulter notre charte de protection de données personnelles,
+                 <a href="#">cliquez ici.</a></p>
+            <button id="afficher_cacher3"><h3>Propriété intellectuelle</h3></button>
+              <p id="p3">Le présent site est protégé au titre de la propriété intellectuelle, notamment droits d'auteurs,
                     dessins et modèles, marques, noms de domaine, brevets, savoir-faire, logiciels ou bases de données.
                     Le groupe SWEATMORE SA (OXYLANE GROUP) et/ou ses partenaires reste(nt) propriétaire(s) de l'ensemble de
                     ces contenus et droits associés.
                     Sur ces contenus, OXYLANE GROUP vous accorde une licence limitée, non-exclusive, révocable,
                     sans droit de sous-licencier pour les simples accès, navigation et utilisation liés au présent Site. 
-                    Cette licence ne vous accorde aucun autre droit, en particulier d'exploitation commerciale de ces contenus.</p></li>
-            <button><li><h3>Nos prix</h3></button>
-                <p>SweatMore.fr vous permet de prendre connaissance des prix des produits pratiqués dans les magasins SweatMore situés en France métropolitaine.
+                    Cette licence ne vous accorde aucun autre droit, en particulier d'exploitation commerciale de ces contenus.</p>
+            <button id="afficher_cacher4"><h3>Nos prix</h3></button>
+             <p id="p4">SweatMore.fr vous permet de prendre connaissance des prix des produits pratiqués dans les magasins SweatMore situés en France métropolitaine.
                 Les prix affichés sont les prix définis par la centrale d'achat de SweatMore,
                 il s'agit de prix maximum conseillés, ces prix peuvent donc varier selon la politique commerciale de chaque magasin SweatMore.
                 Par ailleurs, l'internaute est informé que les offres de produits et prix proposés à l'achat dans les magasins 
-                SweatMore ne sont pas applicables aux achats en ligne sur le site www.SweatMore.fr et inversement.</p></li>
-            </ul>
+                SweatMore ne sont pas applicables aux achats en ligne sur le site www.SweatMore.fr et inversement.</p></div>
+            
+        </div>
+        </div>
     </div>
-                </div>
 
         <?php include "./include/footer.inc.html"; ?>
 
