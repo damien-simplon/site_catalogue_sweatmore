@@ -22,8 +22,11 @@
             <?php include "../include/nav.produit.inc.php";?>
 
         </header>
-
-        <img src="../img/banniere/banniere_baskets.jpg" alt="Banniere Baskets" style="width:100%">
+        <div class="container">
+            <div class="row">
+                <img src="../img/banniere/banniere_baskets.jpg" alt="Banniere Baskets" style="width:100% ; margin:10px">
+            </div>
+        </div>
 
         <div class="container container-catalogue">
             <div class="row">

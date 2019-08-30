@@ -22,10 +22,12 @@
             <?php include "../include/nav.produit.inc.php";?>
         
         </header>
-
-        <img src="../img/banniere/banniere_sweat.jpg" alt="Banniere Sweat" style="width:100%">
-
-        <div class="container container-catalogue">
+        <div class="container">
+            <div class="row">
+                <img src="../img/banniere/banniere_sweat.jpg" class="banniere" alt="Banniere Sweat" style="width:100% ; margin:10px">
+            </div>
+        </div>
+        <div class="container">
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
