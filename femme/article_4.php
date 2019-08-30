@@ -33,15 +33,15 @@
         <div id="produit_image">
 
         <div class="produit_image_miniature">
-            <img src="../img/produit/women/04/front.jpg" class="img-thumbnail" alt="Women front">
+            <img src="../img/produit/femme/04/front.jpg" class="img-thumbnail" alt="Women front">
         </div>
 
         <div class="produit_image_miniature">
-            <img src="../img/produit/women/04/back.jpg" class="img-thumbnail" alt="Women back">
+            <img src="../img/produit/femme/04/back.jpg" class="img-thumbnail" alt="Women back">
         </div>
 
         <div class="produit_image_miniature">
-            <img src="../img/produit/women/04/mvmt.jpg" class="img-thumbnail" alt="Women mouvement">
+            <img src="../img/produit/femme/04/mvmt.jpg" class="img-thumbnail" alt="Women mouvement">
         </div>
 
         </div>
