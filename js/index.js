@@ -61,13 +61,13 @@ closeNewsletter.onclick = function(){
     newsletter.style.display = "none";
 }
 
-arrow[0].onclick = function(){
+arrow[1].onclick = function(){
     imageId--;
     stop = true;
     affichage();
 }
 
-arrow[1].onclick = function(){
+arrow[2].onclick = function(){
     imageId++;
     stop = true;
     affichage();
