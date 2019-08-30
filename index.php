@@ -45,6 +45,23 @@
             </div>
         </div>
 
+        <div id="dernier_article">
+            <?php
+                if(isset($_SESSION['user-id'])){
+                    $recupDernierArticle = $bdd->prepare('SELECT dernier_article FROM users WHERE id = :id');
+                    $id = $_SESSION['user-id'];
+                    $recupDernierArticle->bindParam(":id",$id);
+                    $recupDernierArticle->execute();
+                    $row = $recupDernierArticle->fetch();
+
+                    if(isset($row['dernier_article'])){
+                        $art = explode(" ",$row['dernier_article']);
+                        echo '<img src ="./img/produit/' .$art[0]. '/0' .$art[1]. '/front.jpg">';
+                    }
+                }
+            ?>
+        </div>
+
         <?php include "./include/footer.inc.html"; ?>
 
     <div id="popup_newsletter">

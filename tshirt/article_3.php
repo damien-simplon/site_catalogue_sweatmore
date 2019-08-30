@@ -17,6 +17,10 @@
 
   <body>
 
+  <?php
+      include "../include/dernierArticle.inc.php";
+    ?>
+
     <header class="container-fluid">
 
         <?php include "../include/nav.produit.inc.php";?>

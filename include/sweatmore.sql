@@ -16,7 +16,8 @@ CREATE TABLE IF NOT EXISTS `users` (
   `date_de_naissance` date NOT NULL,
   `email` varchar(255) NOT NULL,
   `mdp` varchar(255) NOT NULL,
-  `sexe` varchar(5) NOT NULL
+  `sexe` varchar(5) NOT NULL,
+  `dernier_article` varchar(255) NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `articles` (

@@ -16,6 +16,9 @@
     </head>
 
     <body>
+    <?php
+      include "../include/dernierArticle.inc.php";
+    ?>
 
         <header class="container-fluid">
         
