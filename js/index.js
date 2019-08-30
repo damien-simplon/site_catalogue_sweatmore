@@ -7,8 +7,9 @@ const iconeNewsletter = newsletter.getElementsByTagName("i");
 const closeNewsletter = iconeNewsletter[0];
 
 const carousel = document.getElementById("carousel");
-const recupMainImage1 = carousel.getElementsByClassName("active")
+const recupMainImage1 = carousel.getElementsByClassName("active");
 const recupMainImage2 = recupMainImage1[0].getElementsByTagName("img");
+const a = recupMainImage1[0].getElementsByTagName("a");
 const mainImage = recupMainImage2[0];
 const images = carousel.getElementsByTagName("img");
 const taille = images.length;
@@ -18,6 +19,7 @@ stop = false;
 
 window.onload = function(){
     mainImage.src = images[imageId].getAttribute("src");
+    a[0].href = images[imageId].getAttribute("alt");
     setTimeout(function(){
         newsletter.style.display = "block";
         newsletter.style.zIndex = "100";
@@ -51,6 +53,7 @@ function affichage(){
         imageId = 1;
     }
     mainImage.src = images[imageId].getAttribute("src");
+    a[0].href = images[imageId].getAttribute("alt");
 }
 
 closeCookie.onclick = function(){
