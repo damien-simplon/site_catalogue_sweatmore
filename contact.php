@@ -13,18 +13,20 @@
 
 		    <!-- la page concernée, faire ressortir l'onglet -->
 	<div class="containerNavContact">
-    <h3>Informations légales</h3>
-        
-        <div class="list-footer-contact">
-            <ul id="list-lien-footer-contact">
-               <button> <li><a href="contact.php" class="lien-footer">Contact</a></li></button> 
-               <button>  <li><a href="apropos.php" class="lien-footer">À propos</a></li></button> 
-               <button> <li><a href="mentions.php" class="lien-footer">Mentions légales</a></li></button> 
-               <button> <li><a href="cgv.php" class="lien-footer">CGV</a></li></button> 
-               <button> <li><a href="faq.php" class="lien-footer">Questions fréquentes</a></li><br></button> 
-            </ul>
-        </div>
-    </div>
+		<div class='row'>
+		<h3>Informations légales</h3>
+			
+			<div class="list-footer-contact">
+				<ul id="list-lien-footer-contact">
+				<button> <li><a href="contact.php" class="lien-footer">Contact</a></li></button> 
+				<button>  <li><a href="apropos.php" class="lien-footer">À propos</a></li></button> 
+				<button> <li><a href="mentions.php" class="lien-footer">Mentions légales</a></li></button> 
+				<button> <li><a href="cgv.php" class="lien-footer">CGV</a></li></button> 
+				<button> <li><a href="faq.php" class="lien-footer">Questions fréquentes</a></li><br></button> 
+				</ul>
+			</div>
+		</div>
+	</div>
 
 
 	<div id="formBanniere"></div>

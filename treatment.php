@@ -48,7 +48,7 @@
                         }
                         // ERREUR MAIL EXISTE DEJA
                         else {
-                            $_SESSION['notification'] = '
+                            $_SESSION['notification'] = ' 
                             <div class="erreur fixed-top" role="alert">Le mail existe deja!</div>';
                             header("Location: index.php?new-account");
                         }
