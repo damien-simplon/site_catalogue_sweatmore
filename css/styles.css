@@ -146,7 +146,7 @@ nav h2{
   }
 
 .pageMentions{
-    height:500px;
+    height:1000px;
 }
 .containerNavMentions{
     position:relative;
@@ -166,26 +166,37 @@ nav h2{
  height:30px;
 }
 
-.list-footer-mentions li{
+.list-footer-mentions {
     font-size:0.8em;
     text-align:center;
 }
 
-.list-footer-mentions li a{
+.list-footer-mentions a{
     color:black;
 }
 
 .pageClicMentions{
     position:absolute;
     background-color: rgba(100, 119, 137, 0.6);
-    height:1000px;
-    width:800px;
+    height:auto;
+    width:700px;
     padding-top:20px;
     padding-left:20px;
     padding-right:20px;
     margin-left:450px;
     top:85px;
+    padding-bottom:30px;
     color:white;
+}
+.pageClicMentions h3{
+    font-size:1em;
+}
+.pageClicMentions button{
+ width:100%;
+}
+
+.pageClicMentions p{
+ display:none;
 }
 
 #list-mentions-page button h3{
@@ -242,7 +253,7 @@ nav h2{
 .pageClicApropos{
     position:absolute;
     background-color: rgba(100, 119, 137, 0.6);
-    height:540px;
+    height:auto;
     width:800px;
     padding-top:20px;
     padding-left:20px;
@@ -252,6 +263,13 @@ nav h2{
     color:white;
 }
 
+.pageClicApropos button{
+    height:30px;
+    background-position:right;
+}
+.pageClicApropos #p1{
+    display:none;
+}
 .pageClicApropos a{
     text-align:right;
     color:rgb(0, 130, 195);
@@ -519,29 +537,42 @@ nav h2{
  height:30px;
 }
 
-.list-footer-faq li{
+.list-footer-faq {
     font-size:0.8em;
     text-align:center;
 }
 
-.list-footer-faq li a{
+.list-footer-faq a{
     color:black;
 }
 
 .pageClicFaq{
     position:absolute;
     background-color: rgba(100, 119, 137, 0.6);
-    background-image:url('../img/logo.png');
-    background-position:left;
-    background-size:150%;
-    height:500px;
-    width:800px;
     padding-top:20px;
     padding-left:20px;
     padding-right:20px;
     margin-left:450px;
     top:85px;
     color:white;
+}
+.pageClicFaq{
+    height:400px;
+    width:800px;
+}
+
+.pageClicFaq{
+    background-image:url('../img/logo.png');
+    background-size:140%;
+    background-position:left;
+}
+
+.pageClicFaq h3{
+    font-size:1em;
+}
+
+.pageClicFaq button{
+ width:70%;
 }
 
 #list-faq-page button h3{

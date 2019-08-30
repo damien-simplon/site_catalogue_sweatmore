@@ -69,23 +69,24 @@
         </div>
     </div>
 
-<div id="containerClicFaq">
-    <div class="pageClicFaq">
-     
-        <h2>Vos questions...<br>...Nos réponses.</h2><br>
-             <ul id="list-faq-page">
-            <button><li><h3>Comment fonctionne un retour magasin?</h3></button>
+    
+    <div id="containerClicFaq">
+                    
+        <div id="pageClic">
+        <div class="pageClicFaq">
+        
+            <h2>Vos questions...<br>...Nos réponses.</h2><br>
+                
+                <button><h3>Comment fonctionne un retour magasin?</h3></button>
                 <p>Le processus de remboursement est en cours de finalisation.</p>
-                </li>
-            <button><li><h3>Ai-je les mêmes avantages clients que mon propre client?</h3></button>
-                <p> Nous vendons nos articles en général 30% moins cher que vos ventes clients.</a></p></li>
-            <button><li><h3>Le ticket de caisse est-il dématérialisé?</h3></button>
-                <p> Oui, il vous est envoyé par mail et est disponible dans votre application dans vos paiements.</p></li>
-            <button><li><h3>Stockez-vous mes coordonnées bancaires?</h3></button>
-                <p>Non, elles sont chez un prestataire bancaire certifié et sécurisé.</p></li>
-            </ul>
+                <button><h3>Ai-je les mêmes avantages clients que mon propre client?</h3></button>
+                <p> Nous vendons nos articles en général 30% moins cher que vos ventes clients.</a></p>
+                <button><h3>Stockez-vous mes coordonnées bancaires?</h3></button>
+                <p>Non, elles sont chez un prestataire bancaire certifié et sécurisé.</p>
+            
+        </div>
+        </div>
     </div>
-</div>
       
     <?php include "./include/footer.inc.html"; ?>
 
