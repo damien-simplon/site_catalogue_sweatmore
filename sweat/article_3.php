@@ -34,15 +34,15 @@
     <div id="produit_image">
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/sweat/03/sweat_front.jpg" class="img-thumbnail" alt="Sweat front">
+        <img src="../img/produit/sweat/03/front.jpg" class="img-thumbnail" alt="Sweat front">
       </div>
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/sweat/03/sweat_back.jpg" class="img-thumbnail" alt="Sweat back">
+        <img src="../img/produit/sweat/03/back.jpg" class="img-thumbnail" alt="Sweat back">
       </div>
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/sweat/03/sweat_mvmt.jpg" class="img-thumbnail" alt="Sweat mouvement">
+        <img src="../img/produit/sweat/03/mvmt.jpg" class="img-thumbnail" alt="Sweat mouvement">
       </div>
 
     </div>

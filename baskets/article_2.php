@@ -33,15 +33,15 @@
     <div id="produit_image">
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/baskets/02/basket_cote.jpg" class="img-thumbnail" alt="Basket côté">
+        <img src="../img/produit/baskets/02/front.jpg" class="img-thumbnail" alt="Basket côté">
       </div>
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/baskets/02/basket_dessus.jpg" class="img-thumbnail" alt="Basket dessus">
+        <img src="../img/produit/baskets/02/top.jpg" class="img-thumbnail" alt="Basket dessus">
       </div>
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/baskets/02/basket_mvmt.jpg" class="img-thumbnail" alt="Basket mouvement">
+        <img src="../img/produit/baskets/02/mvmt.jpg" class="img-thumbnail" alt="Basket mouvement">
       </div>
 
     </div>

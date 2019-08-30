@@ -34,15 +34,15 @@
     <div id="produit_image">
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/t-shirt/02/tshirt_front.jpg" class="img-thumbnail" alt="T-Shirt front">
+        <img src="../img/produit/tshirt/02/front.jpg" class="img-thumbnail" alt="T-Shirt front">
       </div>
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/t-shirt/02/tshirt_back.jpg" class="img-thumbnail" alt="T-Shirt back">
+        <img src="../img/produit/tshirt/02/back.jpg" class="img-thumbnail" alt="T-Shirt back">
       </div>
 
       <div class="produit_image_miniature">
-        <img src="../img/produit/t-shirt/02/tshirt_mvmt.jpg" class="img-thumbnail" alt="T-Shirt mouvement">
+        <img src="../img/produit/tshirt/02/mvmt.jpg" class="img-thumbnail" alt="T-Shirt mouvement">
       </div>
 
     </div>

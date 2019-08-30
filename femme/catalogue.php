@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <a href="article_1.php"><img src="../img/produit/women/01/tenue_complete_women_front.jpg" class="card-img-top" alt="Tenue complète femme yoga"></a>
+                    <a href="article_1.php"><img src="../img/produit/women/01/front_cat.jpg" class="card-img-top" alt="Tenue complète femme yoga"></a>
 
                     <div class="card-body">
                         <p class="card-text">Cette tenue de yoga est une véritable seconde peau respirante.</p>
@@ -45,7 +45,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <a href="article_2.php"><img src="../img/produit/women/02/tenue_complete_women_front.jpg" class="card-img-top" alt="Tenue complète femme fitness"></a>
+                    <a href="article_2.php"><img src="../img/produit/women/02/front_cat.jpg" class="card-img-top" alt="Tenue complète femme fitness"></a>
 
                     <div class="card-body">
                         <p class="card-text">Un indispensable de votre vestiaire fitness.</p>
@@ -58,7 +58,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <a href="article_3.php"><img src="../img/produit/women/03/tenue_complete_women_front.jpg" class="card-img-top" alt="Tenue complète femme football"></a>
+                    <a href="article_3.php"><img src="../img/produit/women/03/front_cat.jpg" class="card-img-top" alt="Tenue complète femme football"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue de football.</p>
@@ -71,7 +71,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <a href="article_4.php"><img src="../img/produit/women/04/tenue_complete_women_front.jpg" class="card-img-top" alt="Tenue complète femme tennis"></a>
+                    <a href="article_4.php"><img src="../img/produit/women/04/front_cat.jpg" class="card-img-top" alt="Tenue complète femme tennis"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue aussi bien adapté à la pratique du tennis que du badminton.</p>

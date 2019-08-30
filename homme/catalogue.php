@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <a href="article_1.php"><img src="../img/produit/men/01/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme running"></a>
+                    <a href="article_1.php"><img src="../img/produit/men/01/front_cat.jpg" class="card-img-top" alt="Tenue complète homme running"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue de running qui vous apporte un confort thermique idéal lors de vos sorties.</p>
@@ -45,7 +45,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <a href="article_2.php"><img src="../img/produit/men/02/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme velo"></a>
+                    <a href="article_2.php"><img src="../img/produit/men/02/front_cat.jpg" class="card-img-top" alt="Tenue complète homme velo"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue de vélo homme qui vous offre une bonne évacuation de la transpiration</p>
@@ -58,7 +58,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <a href="article_3.php"><img src="../img/produit/men/03/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme volley-ball"></a>
+                    <a href="article_3.php"><img src="../img/produit/men/03/front_cat.jpg" class="card-img-top" alt="Tenue complète homme volley-ball"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue très légere, qui accompagne vos mouvements de beach-volley</p>
@@ -71,7 +71,7 @@
 
                 <div class="card col-lg-3 col-md-3 col-sm-6" style="margin-top:10px;">
 
-                    <a href="article_4.php"><img src="../img/produit/men/04/tenue_complete_men_front.jpg" class="card-img-top" alt="Tenue complète homme"></a>
+                    <a href="article_4.php"><img src="../img/produit/men/04/front_cat.jpg" class="card-img-top" alt="Tenue complète homme"></a>
 
                     <div class="card-body">
                         <p class="card-text">Tenue en matière respirante avec élasticité</p>
