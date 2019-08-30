@@ -1,111 +1,83 @@
-<<<<<<< HEAD
-// const cookie = document.getElementById("popup_cookie");
-// const iconeCookie = cookie.getElementsByTagName("i");
-// const closeCookie = iconeCookie[0];
+const cookie = document.getElementById("popup_cookie");
+const iconeCookie = cookie.getElementsByTagName("i");
+const closeCookie = iconeCookie[0];
 
-// const newsletter = document.getElementById("popup_newsletter");
-// const iconeNewsletter = newsletter.getElementsByTagName("i");
-// const closeNewsletter = iconeNewsletter[0];
+const newsletter = document.getElementById("popup_newsletter");
+const iconeNewsletter = newsletter.getElementsByTagName("i");
+const closeNewsletter = iconeNewsletter[0];
 
-// const carousel = document.getElementById("carousel");
-// const recupMainImage1 = carousel.getElementsByClassName("active")
-// const recupMainImage2 = recupMainImage1[0].getElementsByTagName("img");
-// const mainImage = recupMainImage2[0];
-// const images = carousel.getElementsByTagName("img");
-// const taille = images.length;
-// const arrow = carousel.getElementsByTagName("a");
-// var imageId = 1;
-// stop = false;
+const carousel = document.getElementById("carousel");
+const recupMainImage1 = carousel.getElementsByClassName("active")
+const recupMainImage2 = recupMainImage1[0].getElementsByTagName("img");
+const mainImage = recupMainImage2[0];
+const images = carousel.getElementsByTagName("img");
+const taille = images.length;
+const arrow = carousel.getElementsByTagName("a");
+var imageId = 1;
+stop = false;
 
-// window.onload = function(){
-//     mainImage.src = images[imageId].getAttribute("src");
-//     setTimeout(function(){
-//         newsletter.style.display = "block";
-//         newsletter.style.zIndex = "100";
-//     }, 60000);
-//     intervalle();
-// }
-
-// function intervalle(){
-//     var stopIntervalle = setInterval(function(){
-//         if(stop==true){
-//             clearInterval(stopIntervalle);
-//             stop = false;
-//             intervalle();
-//         }
-//         else{
-//             imageId++;
-//             affichage();
-//         }
-//     },5000);
-// }
-
-// function affichage(){
-//     stop = true;
-//     if(imageId<=0){
-//         imageId = taille-1;
-//     }
-//     else if(imageId>=taille){
-//         imageId = 1;
-//     }
-//     mainImage.src = images[imageId].getAttribute("src");
-// }
-
-// closeCookie.onclick = function(){
-//     cookie.style.height = "0";
-// }
-
-// closeNewsletter.onclick = function(){
-//     newsletter.style.display = "none";
-// }
-
-// arrow[0].onclick = function(){
-//     imageId--;
-//     stop = true;
-//     affichage();
-// }
-
-// arrow[1].onclick = function(){
-//     imageId++;
-//     stop = true;
-//     affichage();
-// }
-
-// /*********************DIV CACHE/VISIBLE Page Clic FOOTER************************/
-// var p1=document.getElementById('p1');
-// var p2=document.getElementById('p2');
-// var p3=document.getElementById('p3');
-// var p4=document.getElementById('p4');
-// var afficher_cacher=document.getElementById('afficher_cacher')
- 
-
-
-// Pour mentions légales
-// window.onload = function(){
-//   je récupère le bouton afficher Cacher
-//   j'écouter le bouton 
-// si  je crée une fonction dans laquelle {
-//   je récupère les p 
-//   je récupère ma div page
-//   ma div page prend la taille de 1000 px 
-//   j'affiche mes p  ;}
-//   else 
-//   {
-//       je cache mes p 
-//       ma div prend la taille de 300px 
-
-//   }
+window.onload = function(){
+    mainImage.src = images[imageId].getAttribute("src");
+    setTimeout(function(){
+        newsletter.style.display = "block";
+        newsletter.style.zIndex = "100";
+    }, 60000);
+    intervalle();
+    HideShow();
+}
 
 
 
-//   récupère bouton1 . onclick
-//     si p1 est masqué
-//         on affiche p1
-//     sinon 
-//         on masque p1
-// }
+function intervalle(){
+    var stopIntervalle = setInterval(function(){
+        if(stop==true){
+            clearInterval(stopIntervalle);
+            stop = false;
+            intervalle();
+        }
+        else{
+            imageId++;
+            affichage();
+        }
+    },5000);
+}
 
-window.onload = function() {
+function affichage(){
+    stop = true;
+    if(imageId<=0){
+        imageId = taille-1;
+    }
+    else if(imageId>=taille){
+        imageId = 1;
+    }
+    mainImage.src = images[imageId].getAttribute("src");
+}
+
+closeCookie.onclick = function(){
+    cookie.style.height = "0";
+}
+
+closeNewsletter.onclick = function(){
+    newsletter.style.display = "none";
+}
+
+arrow[0].onclick = function(){
+    imageId--;
+    stop = true;
+    affichage();
+}
+
+arrow[1].onclick = function(){
+    imageId++;
+    stop = true;
+    affichage();
+}
+
+/*********************DIV CACHE/VISIBLE Page Clic FOOTER************************/
+
+
+
+ function HideShow(){
     var afficher_cacher1=document.getElementById('afficher_cacher1');
 
     afficher_cacher1.onclick = function() {
@@ -129,43 +101,6 @@ window.onload = function() {
         if(p2.style.display=='none')
         {
             p2.style.display = 'inline-block';
-=======
-const cookie = document.getElementById("popup_cookie");
-const iconeCookie = cookie.getElementsByTagName("i");
-const closeCookie = iconeCookie[0];
-
-const newsletter = document.getElementById("popup_newsletter");
-const iconeNewsletter = newsletter.getElementsByTagName("i");
-const closeNewsletter = iconeNewsletter[0];
-
-const carousel = document.getElementById("carousel");
-const recupMainImage1 = carousel.getElementsByClassName("active")
-const recupMainImage2 = recupMainImage1[0].getElementsByTagName("img");
-const a = recupMainImage1[0].getElementsByTagName("a");
-const mainImage = recupMainImage2[0];
-const images = carousel.getElementsByTagName("img");
-const taille = images.length;
-const arrow = carousel.getElementsByTagName("a");
-var imageId = 1;
-stop = false;
-
-window.onload = function(){
-    mainImage.src = images[imageId].getAttribute("src");
-    a[0].href = images[imageId].getAttribute("alt");
-    setTimeout(function(){
-        newsletter.style.display = "block";
-        newsletter.style.zIndex = "100";
-    }, 60000);
-    intervalle();
-}
-
-function intervalle(){
-    var stopIntervalle = setInterval(function(){
-        if(stop==true){
-            clearInterval(stopIntervalle);
-            stop = false;
-            intervalle();
->>>>>>> c0f9c818ae4374d9b873c728d9ae2250fe374631
         }
         else 
         {
@@ -200,29 +135,4 @@ function intervalle(){
             p4.style.display = 'none';
         }
     }
-<<<<<<< HEAD
-=======
-    mainImage.src = images[imageId].getAttribute("src");
-    a[0].href = images[imageId].getAttribute("alt");
-    }
-
-closeCookie.onclick = function(){
-    cookie.style.height = "0";
-}
-
-closeNewsletter.onclick = function(){
-    newsletter.style.display = "none";
-}
-
-arrow[1].onclick = function(){
-    imageId--;
-    stop = true;
-    affichage();
-}
-
-arrow[2].onclick = function(){
-    imageId++;
-    stop = true;
-    affichage();
->>>>>>> c0f9c818ae4374d9b873c728d9ae2250fe374631
 }
