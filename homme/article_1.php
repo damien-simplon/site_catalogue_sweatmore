@@ -25,8 +25,11 @@
         <?php include "../include/nav.produit.inc.php";?>
 
     </header>
-
-    <img src="../img/banniere/banniere_men.jpg" alt="Banniere Men" style="width:100%">
+    <div class="container">
+        <div class="row">
+          <img src="../img/banniere/banniere_men.jpg" alt="Banniere Men" style="width:100% ; margin:10px">
+        </div>
+    </div>
 
     <div id="produit_image_main"></div>
 

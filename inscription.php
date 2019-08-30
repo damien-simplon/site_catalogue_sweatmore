@@ -18,7 +18,7 @@
                     <section class="formulaire">
 
                         <h3>Créer un nouveau compte</h3>
-
+                        <hr>
                         <form action="treatment.php" method="post">
                             <div class="form-group">
                                 <label for="prenom">Prénom</label>
