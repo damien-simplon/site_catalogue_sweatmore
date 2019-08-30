@@ -8,6 +8,7 @@
     </head>
 
     <body>
+<<<<<<< HEAD
     <header class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,6 +54,25 @@
                 </div>
             </nav>
         </header>
+=======
+    <?php include "./include/nav.inc.php"; ?>
+<div class="pageApropos">
+    <!-- la page concernée, faire ressortir l'onglet -->
+    <div class="containerNavApropos">
+        <h3>Informations légales</h3>
+        
+        <div class="list-footer-apropos">
+            <ul id="list-lien-footer-apropos">
+               <button> <li><a href="contact.php" class="lien-footer">Contact</a></li></button> 
+               <button>  <li><a href="apropos.php" class="lien-footer">À propos</a></li></button> 
+               <button> <li><a href="mentions.php" class="lien-footer">Mentions légales</a></li></button> 
+               <button> <li><a href="cgv.php" class="lien-footer">CGV</a></li></button> 
+               <button> <li><a href="faq.php" class="lien-footer">Questions fréquentes</a></li><br></button> 
+            </ul>
+        </div>
+    </div>
+                </div>
+>>>>>>> c0f9c818ae4374d9b873c728d9ae2250fe374631
 
     <div class="pageApropos">
         <!-- la page concernée, faire ressortir l'onglet -->
@@ -90,8 +110,6 @@
     </div>
       
     <?php include "./include/footer.inc.html"; ?>
-    <script type="text/javascript" src="./js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
 </body>
 </html>

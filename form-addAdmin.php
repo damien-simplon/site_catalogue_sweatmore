@@ -17,7 +17,7 @@
     <body>
  
     <!-- INCLUSION DU HEADER -->
-<?php  include 'include/header.inc.php'; ?>
+<?php  include 'include/nav.inc.php'; ?>
  
     <div class="container-fluid">
         <div class="row">

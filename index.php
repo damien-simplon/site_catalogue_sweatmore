@@ -7,73 +7,30 @@
     </head>
 
     <body>
-        <header class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <h2>SweatMore</h2>
-
-                <?php if (isset($_SESSION['user-id'])){ ?>
-                <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
-                    <li class="nav-item p-2"><a class="nav-link" href="./compte.php">Mon compte</a></li>
-                    <li class="nav-item p-2"><a class="nav-link" href="./deconnexion.php">Deconnexion</a></li>
-                </ul>
-
-                <?php } else { ?> 
-                <ul class="navbar-nav d-flex flex-row" id="connexion_inscription">
-                    <li class="nav-item p-2"><a class="nav-link" href="./connexion.php">Connexion</a></li>
-                    <li class="nav-item p-2"><a class="nav-link" href="./inscription.php">Inscription</a></li>
-                </ul>
-                <?php } ?>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./sweat/catalogue.php">Sweat</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./tshirt/catalogue.php">T-shirt</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="./baskets/catalogue.php">Baskets</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="./homme/catalogue.php">Homme</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link" href="./femme/catalogue.php">Femme</a>
-                        </li>                
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <?php include "./include/nav.inc.php"; ?>
 
         <div id="content">
             <div class="container-fluid">
                 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="" class="d-block w-100" alt="1">
+                            <a href=""><img src="" class="d-block w-100"></a>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/tenue_complete_women_mvmt.jpg" class="d-block w-100" alt="2">
+                            <img src="./img/slide/tenue_complete_women_mvmt.jpg" class="d-block w-100" alt="./femme/catalogue.php">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/basket_mvmt.jpg" class="d-block w-100" alt="2">
+                            <img src="./img/slide/basket_mvmt.jpg" class="d-block w-100" alt="./baskets/catalogue.php">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/sweat_mvmt.jpg" class="d-block w-100" alt="3">
+                            <img src="./img/slide/sweat_mvmt.jpg" class="d-block w-100" alt="./sweat/catalogue.php">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/tenue_complete_men_mvmt.jpg" class="d-block w-100" alt="4">
+                            <img src="./img/slide/tenue_complete_men_mvmt.jpg" class="d-block w-100" alt="./homme/catalogue.php">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slide/tshirt_mvmt.jpg" class="d-block w-100" alt="5">
+                            <img src="./img/slide/tshirt_mvmt.jpg" class="d-block w-100" alt="./tshirt/catalogue.php">
                         </div>
                     </div>
                     <a class="carousel-control-prev" role="button" data-slide="prev">
@@ -107,6 +64,7 @@
         <i class="fa fa-window-close-o" aria-hidden="true"></i>
     </div>
 
-        <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+        
     </body>
 </html>
