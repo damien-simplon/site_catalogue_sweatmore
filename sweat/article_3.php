@@ -58,7 +58,7 @@
 
 
     <?php
-        include "../include/footer.inc.html";
+        include "../include/footer.produit.inc.html";
     ?>
 
     <script type="text/javascript" src="../js/produit.js"></script>

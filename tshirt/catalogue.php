@@ -84,7 +84,7 @@
         </div>
 
         <?php
-            include "../include/footer.inc.html";
+            include "../include/footer.produit.inc.html";
         ?>
     </body>
 </html>
