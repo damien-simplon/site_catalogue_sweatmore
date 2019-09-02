@@ -6,6 +6,8 @@ session_start();
 <html lang="fr">
     <head>
         <?php include "./include/head.inc.html"; ?>
+        <title>SweatMore | Mon compte</title>
+        <meta name="description" content="Mon compte SweatMore">
     </head>
 
     <body>

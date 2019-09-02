@@ -2,9 +2,8 @@
 <html lang="fr">
     <head>
         <?php include "./include/head.inc.html"; ?>
-        <title>
-        À propos - SWEATMORE.FR
-        </title>
+        <title>SweatMore | CGV</title>
+        <meta name="description" content="CGV du site SweatMore">
     </head>
 
     <body>

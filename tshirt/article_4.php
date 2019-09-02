@@ -13,6 +13,8 @@
       <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
       <script src="https://kit.fontawesome.com/4afe80f74f.js"></script>
 
+      <title>SweatMore | T-Shirt 4</title>
+      <meta name="description" content="Page de l'article T-Shirt 4">
   </head>
 
   <body>

@@ -4,6 +4,8 @@
 <html lang="fr">
     <head>
         <?php include "./include/head.inc.html"; ?>
+        <title>SweatMore</title>
+        <meta name="description" content="Page d'accueil du site SweatMore">
     </head>
 
     <body>

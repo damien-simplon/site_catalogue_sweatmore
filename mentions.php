@@ -2,9 +2,8 @@
 <html lang="fr">
     <head>
         <?php include "./include/head.inc.html"; ?>
-        <title>
-        Mentions légales - SWEATMORE.FR
-        </title>
+        <title>SweatMore | Mentions légales</title>
+        <meta name="description" content="Mentions légales du site SweatMore">
     </head>
 
     <body>

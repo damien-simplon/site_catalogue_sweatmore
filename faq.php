@@ -2,9 +2,8 @@
 <html lang="fr">
     <head>
         <?php include "./include/head.inc.html"; ?>
-        <title>
-        FAQ - SWEATMORE.FR
-        </title>
+        <title>SweatMore | FAQ</title>
+        <meta name="description" content="FAQ du site SweatMore">
     </head>
 
     <body>

@@ -13,6 +13,8 @@
         <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/4afe80f74f.js"></script>
 
+        <title>SweatMore | Catalogue Sweat</title>
+        <meta name="description" content="Page catalogue des Sweats">
     </head>
 
     <body>
