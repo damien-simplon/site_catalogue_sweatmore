@@ -38,6 +38,7 @@ session_start();
                                     <th scope="col">Nom</th>
                                     <th scope="col">Description</th>
                                     <th scope="col">Image</th>
+                                    <th scope="col">Reference</th>
                                     <th scope="col">Modifier</th>
                                     <th scope="col">Supprimer</th>
                                 </tr>
@@ -49,7 +50,8 @@ session_start();
                                     <td><?= $data['cat']?></td>
                                     <td><?= $data['nom']?></td>
                                     <td><?= $data['descri']?></td>
-                                    <td><img src="<?php echo $data['photo'];?>" width="50" style="display: block; margin: 0 auto;"></td>
+                                    <td><img src="<?php echo $data['photo1'];?>" width="50" style="display: block; margin: 0 auto;"><img src="<?php echo $data['photo2'];?>" width="50" style="display: block; margin: 0 auto;"></td>
+                                    <td><?= $data['ref']?></td>
                                     <td><a href="form-edit.php?edit=<?= $data['id']?>" role="button">Modifier</a></td>
                                     <td><a href="treatment.php?del=<?= $data['id']?>" role="button">Supprimer</a></td>
                                 </tr>

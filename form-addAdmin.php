@@ -42,9 +42,21 @@
             </div>
 
             <div class="form-group">
-                <label for="image">Image</label>
-                <input type="file" name="image" class="form-control" id="image"/>
+                <label for="image1">Image devant</label>
+                <input type="file" name="image1" class="form-control" id="image1"/>
             </div>
+
+            <div class="form-group">
+                <label for="image2">Image derriere</label>
+                <input type="file" name="image2" class="form-control" id="image2"/>
+            </div>
+
+            <div class="form-group">
+                <label for="ref">Reference</label>
+                <input type="text" class="form-control" id="ref" name="ref" placeholder="ADC123H">
+            </div>
+
+            
 
             <div class="form-group">
             <label for="cat">Categorie : </label>

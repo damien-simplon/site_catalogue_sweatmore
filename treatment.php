@@ -104,21 +104,21 @@
             if(isset($_POST['formaddadmin'])) {
 
                 // VERIFICATION BACKGROUND
-                if (!empty($_FILES['image']['tmp_name'])) {
+                if (!empty($_FILES['image1']['tmp_name'])) {
                     $tailleMax = 1000000;
                     $extensionsValides = array('jpg', 'jpeg', 'png', 'gif');
                     // VERIFICATION TAILLE FICHIER BACKGROUND
-                    if ($_FILES['image']['size'] <= $tailleMax) {
-                        $extensionsUpload = strtolower(substr(strrchr($_FILES['image']['name'], '.'), 1));
+                    if ($_FILES['image1']['size'] <= $tailleMax) {
+                        $extensionsUpload = strtolower(substr(strrchr($_FILES['image1']['name'], '.'), 1));
                         // VERIFICATION EXTENSION
                         if (in_array($extensionsUpload, $extensionsValides)) {
-                            $chemin = "img/".$_SESSION['user-id'].".".$extensionsUpload;
-                            $resultatFile = move_uploaded_file($_FILES['image']['tmp_name'], $chemin);
-                            // SI TOUT OK METTRE A JOUR LE BACKGROUND
+                            $chemin = "img/".$_SESSION['user-id']."-1.".$extensionsUpload;
+                            $resultatFile = move_uploaded_file($_FILES['image1']['tmp_name'], $chemin);
+                            // SI TOUT OK METTRE A JOUR LE BACKGROUND   
                             if ($resultatFile) {
-                                $photo = "img/". $_SESSION['user-id'].".".$extensionsUpload;
-                                 $updatefile = $bdd->prepare("INSERT INTO articles (photo) VALUES(photo");
-                                 $updatefile->bindParam(":photo",$photo);
+                                $photo = "img/". $_SESSION['user-id']."-2.".$extensionsUpload;
+                                 $updatefile = $bdd->prepare('INSERT INTO articles (photo1) VALUES (:photo1)');
+                                 $updatefile->bindParam(":photo1",$photo);
                                  $updatefile->execute();
                                  $_SESSION['notification'] = '
                                 <div class="succes fixed-top" role="alert">Les modifications ont été enregistrées!</div>';
@@ -150,7 +150,61 @@
                  }
 
                 // SI PAS DE FICHIER SELECTIONNE
-                else if(empty($_FILES['img']['tmp_name'])){
+                else if(empty($_FILES['image1']['tmp_name'])){
+                    $_SESSION['notification'] = '
+                        <div class="succes fixed-top" role="alert">Les modifications ont été enregistrées!</div>';
+
+                        header("Location: index.php");
+                }
+
+                // VERIFICATION BACKGROUND
+                if (!empty($_FILES['image2']['tmp_name'])) {
+                    $tailleMax = 1000000;
+                    $extensionsValides = array('jpg', 'jpeg', 'png', 'gif');
+                    // VERIFICATION TAILLE FICHIER BACKGROUND
+                    if ($_FILES['image2']['size'] <= $tailleMax) {
+                        $extensionsUpload = strtolower(substr(strrchr($_FILES['image2']['name'], '.'), 1));
+                        // VERIFICATION EXTENSION
+                        if (in_array($extensionsUpload, $extensionsValides)) {
+                            $chemin = "img/".$_SESSION['user-id']."-2.".$extensionsUpload;
+                            $resultatFile = move_uploaded_file($_FILES['image2']['tmp_name'], $chemin);
+                            // SI TOUT OK METTRE A JOUR LE BACKGROUND
+                            if ($resultatFile) {
+                                 $photo2 = "img/". $_SESSION['user-id']."-2.".$extensionsUpload;
+                                 $updatefile = $bdd->prepare('INSERT INTO articles (photo2) VALUES (:photo2)');
+                                 $updatefile->bindParam(":photo2",$photo2);
+                                 $updatefile->execute();
+                                 $_SESSION['notification'] = '
+                                <div class="succes fixed-top" role="alert">Les modifications ont été enregistrées!</div>';
+
+                                header("Location: index.php");
+                            } 
+                            // SINON ERREUR IMPORTATION
+                            else{
+                             $_SESSION['notification'] = '
+                             <div class="erreur fixed-top" role="alert">Erreur lors de l importation</div>';
+
+                             header("Location: index.php");
+                            }
+                        } 
+                        // ERREUR FORMAT
+                        else{
+                            $_SESSION['notification'] = '
+                             <div class="erreur fixed-top" role="alert">Erreur format</div>';
+
+                             header("Location: index.php");
+                        }
+                      // ERREUR POIDS FICHIER
+                    } else{
+                        $_SESSION['notification'] = '
+                             <div class="erreur fixed-top" role="alert">Le fichier est trop lourd / Taille maxi : 1 mo</div>';
+
+                             header("Location: index.php");
+                    }
+                 }
+
+                // SI PAS DE FICHIER SELECTIONNE
+                else if(empty($_FILES['image2']['tmp_name'])){
                     $_SESSION['notification'] = '
                         <div class="succes fixed-top" role="alert">Les modifications ont été enregistrées!</div>';
 
@@ -161,10 +215,12 @@
                     $nom=$_POST['nom'];
                     $cat=$_POST['cat'];
                     $descri=$_POST['descri'];
-                    $req = $bdd->prepare('INSERT INTO articles (nom, cat,descri) VALUES(:nom,:cat,:descri)');
+                    $ref=$_POST['ref'];
+                    $req = $bdd->prepare('INSERT INTO articles (nom, cat,descri,ref) VALUES(:nom,:cat,:descri,:ref)');
                     $req->bindParam(":nom",$nom);
                     $req->bindParam(":cat",$cat);
                     $req->bindParam(":descri",$descri);
+                    $req->bindParam(":ref",$ref);
                     $req->execute();
 
                     header("Location: index.php");
